@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Wonoanti - Portal Resmi Profil Pemerintah Desa</title>
+    <meta name="description" content="Website resmi Desa Wonoanti, Kecamatan Gandusari, Kabupaten Trenggalek. Media informasi profil desa, sejarah, visi misi, pemerintahan, potensi desa, dan layanan masyarakat.">
+    
+    <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar-container" id="main-header">
+        <div class="navbar-wrapper container">
+            <a href="#beranda" class="logo-area">
+                <!-- SVG Emblem Logo -->
+                <div class="logo-icon">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 5 L85 25 V65 L50 95 L15 65 V25 Z" fill="#1b4332" stroke="#d8f3dc" stroke-width="4"/>
+                        <circle cx="50" cy="35" r="8" fill="#e9d8a6"/>
+                        <path d="M35 55 Q50 40 65 55" stroke="#ffffff" stroke-width="4" fill="none"/>
+                        <path d="M25 68 Q50 55 75 68" stroke="#d8f3dc" stroke-width="4" fill="none"/>
+                        <path d="M50 42 V80" stroke="#40916c" stroke-width="3"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">WONOANTI</span>
+                    <span class="logo-subtitle">Pemerintah Desa</span>
+                </div>
+            </a>
+            
+            <!-- Desktop Navigation Links -->
+            <nav class="nav-links-desktop">
+                <a href="#beranda" class="nav-link active">Beranda</a>
+                <a href="#profil" class="nav-link">Profil Desa</a>
+                <a href="#pemerintahan" class="nav-link">Pemerintahan</a>
+                <a href="#potensi" class="nav-link">Potensi Desa</a>
+                <a href="#galeri" class="nav-link">Galeri</a>
+                <a href="#kontak" class="nav-link btn-navbar">Hubungi Kami</a>
+            </nav>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" id="menu-toggle-btn" aria-label="Buka Menu">
+                <i data-lucide="menu" class="icon-open"></i>
+                <i data-lucide="x" class="icon-close" style="display: none;"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav-overlay" id="mobile-menu">
+        <nav class="mobile-nav-links">
+            <a href="#beranda" class="mobile-link">Beranda</a>
+            <a href="#profil" class="mobile-link">Profil Desa</a>
+            <a href="#pemerintahan" class="mobile-link">Pemerintahan</a>
+            <a href="#potensi" class="mobile-link">Potensi Desa</a>
+            <a href="#galeri" class="mobile-link">Galeri</a>
+            <a href="#kontak" class="mobile-link mobile-btn">Hubungi Kami</a>
+        </nav>
+    </div>
+
+    <main>
+        
+        <!-- Section 1 — Hero / Beranda -->
+        <section id="beranda" class="hero-section" style="background-image: linear-gradient(rgba(27, 67, 50, 0.65), rgba(15, 34, 25, 0.85)), url('assets/images/hero_bg.png');">
+            <div class="container hero-content-wrapper">
+                <div class="hero-badge reveal-fade-in">
+                    <span class="badge-text"><i data-lucide="shield-check" class="badge-icon"></i> Portal Resmi Wonoanti</span>
+                </div>
+                <h1 class="hero-title reveal-slide-up">Desa Wonoanti</h1>
+                <p class="hero-subtitle reveal-slide-up" style="animation-delay: 0.1s;">Website Profil Resmi Desa Wonoanti, Kecamatan Gandusari, Kabupaten Trenggalek</p>
+                <p class="hero-description reveal-slide-up" style="animation-delay: 0.2s;">
+                    Menyajikan informasi terpercaya mengenai profil desa, administrasi pemerintahan, pelayanan publik, 
+                    dan potensi industri kreatif anyaman bambu unggulan yang terintegrasi untuk mewujudkan kesejahteraan warga.
+                </p>
+                <div class="hero-buttons-group reveal-slide-up" style="animation-delay: 0.3s;">
+                    <a href="#profil" class="btn btn-primary">Lihat Profil Desa <i data-lucide="arrow-right"></i></a>
+                    <a href="#galeri" class="btn btn-outline-white">Galeri Desa <i data-lucide="image"></i></a>
+                </div>
+            </div>
+            
+            <!-- Statistics Overlay Panel -->
+            <div class="statistics-floating-panel container">
+                <div class="statistics-grid">
+                    <!-- Stat Card 1 -->
+                    <div class="stat-card" data-speed="2000">
+                        <div class="stat-icon-wrapper">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number"><span class="counter" data-target="3842">0</span>+</div>
+                            <div class="stat-label">Jumlah Penduduk</div>
+                        </div>
+                    </div>
+                    <!-- Stat Card 2 -->
+                    <div class="stat-card" data-speed="2000">
+                        <div class="stat-icon-wrapper">
+                            <i data-lucide="home"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number"><span class="counter" data-target="1124">0</span></div>
+                            <div class="stat-label">Jumlah KK</div>
+                        </div>
+                    </div>
+                    <!-- Stat Card 3 -->
+                    <div class="stat-card" data-speed="2000">
+                        <div class="stat-icon-wrapper">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number"><span class="counter" data-target="4">0</span> Dusun</div>
+                            <div class="stat-label">Jumlah Wilayah Dusun</div>
+                        </div>
+                    </div>
+                    <!-- Stat Card 4 -->
+                    <div class="stat-card" data-speed="2000">
+                        <div class="stat-icon-wrapper">
+                            <i data-lucide="grid"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-number"><span class="counter" data-target="485">0</span> Ha</div>
+                            <div class="stat-label">Luas Wilayah Kerja</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 — Profil Desa -->
+        <section id="profil" class="profile-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-in">
+                    <span class="section-tag">SEKILAS PROFIL</span>
+                    <h2 class="section-title">Selamat Datang di Wonoanti</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="profile-content-grid">
+                    <!-- Left Column: Image -->
+                    <div class="profile-image-area reveal-slide-left">
+                        <div class="image-wrapper">
+                            <img src="assets/images/kantor_desa.png" alt="Kantor Desa Wonoanti" class="img-responsive profile-main-img">
+                            <div class="experience-badge">
+                                <span class="badge-number">1921</span>
+                                <span class="badge-label">Desa Bersejarah</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Text Information -->
+                    <div class="profile-text-area reveal-slide-right">
+                        <h3 class="profile-subtitle">Sejarah Singkat Desa Wonoanti</h3>
+                        <p class="profile-desc">
+                            Desa Wonoanti terletak di Kecamatan Gandusari, Kabupaten Trenggalek, Jawa Timur. Berakar dari kata <strong>"Wono"</strong> yang berarti hutan, dan <strong>"Anti"</strong> yang melambangkan ketahanan atau kedamaian. Sejak berdiri, desa ini diberkahi dengan tanah agraris yang subur dan iklim sosial gotong royong yang kental. 
+                        </p>
+                        <p class="profile-desc">
+                            Seiring waktu, pergeseran budaya kreatif melahirkan sentra industri anyaman bambu yang kini menjadi identitas ekonomi Desa Wonoanti, menjadikannya salah satu desa percontohan UMKM mandiri di Jawa Timur.
+                        </p>
+                        
+                        <!-- Vision & Mission Cards -->
+                        <div class="vision-mission-wrapper">
+                            <!-- Vision Box -->
+                            <div class="vision-box">
+                                <div class="box-icon-container">
+                                    <i data-lucide="eye"></i>
+                                </div>
+                                <div class="box-content">
+                                    <h4>Visi Desa</h4>
+                                    <p>"Mewujudkan Wonoanti yang Maju, Sejahtera, Berbudaya, dan Unggul dalam Sektor Pertanian serta Ekonomi Kreatif Berkelanjutan."</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Mission Box -->
+                            <div class="mission-box">
+                                <div class="box-icon-container">
+                                    <i data-lucide="target"></i>
+                                </div>
+                                <div class="box-content">
+                                    <h4>Misi Utama</h4>
+                                    <ul class="mission-list">
+                                        <li><i data-lucide="check-circle-2" class="list-icon"></i> Pelayanan publik prima berbasis digital yang transparan dan profesional.</li>
+                                        <li><i data-lucide="check-circle-2" class="list-icon"></i> Mengembangkan UMKM bambu lokal dan memperkuat ketahanan pangan.</li>
+                                        <li><i data-lucide="check-circle-2" class="list-icon"></i> Peningkatan sarana infrastruktur yang ramah lingkungan dan merata.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 — Pemerintahan Desa -->
+        <section id="pemerintahan" class="gov-section section-padding bg-white">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-in">
+                    <span class="section-tag">STRUKTUR PEMERINTAHAN</span>
+                    <h2 class="section-title">Pemerintah Desa Wonoanti</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Dipimpin oleh Kepala Desa yang berintegritas dan didukung oleh jajaran perangkat desa yang profesional dalam melayani masyarakat.
+                    </p>
+                </div>
+                
+                <!-- Village Head Card -->
+                <div class="leader-section-wrapper reveal-slide-up">
+                    <div class="leader-card">
+                        <div class="leader-image-wrapper">
+                            <img src="assets/images/kades.png" alt="H. Mulyono, S.Sos." class="leader-img">
+                        </div>
+                        <div class="leader-info">
+                            <div class="leader-badge">Kepala Desa Wonoanti</div>
+                            <h3 class="leader-name">H. Mulyono, S.Sos.</h3>
+                            <div class="leader-divider"></div>
+                            <p class="leader-quote">
+                                "Sinergi dan gotong royong adalah kunci pembangunan desa. Kami berdedikasi tinggi untuk memberikan pelayanan publik terbaik, mempermudah administrasi, serta mendorong potensi ekonomi warga agar terwujud Wonoanti yang unggul dan sejahtera."
+                            </p>
+                            <div class="leader-meta">
+                                <span class="meta-item"><i data-lucide="calendar"></i> Periode Jabatan: 2021 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Organization Structure Grid -->
+                <div class="structure-wrapper reveal-slide-up" style="animation-delay: 0.1s;">
+                    <h3 class="structure-title text-center">Struktur Jajaran Perangkat Desa</h3>
+                    
+                    <div class="org-tree-grid">
+                        <!-- Level 1: Sekdes -->
+                        <div class="org-card primary-card">
+                            <div class="org-role">Sekretaris Desa</div>
+                            <div class="org-name">Slamet Riadi, S.E.</div>
+                        </div>
+                        
+                        <!-- Level 2: Jajaran Kaur -->
+                        <div class="org-group-title">Kepala Urusan (KAUR)</div>
+                        <div class="org-subgrid">
+                            <div class="org-card">
+                                <div class="org-role">Kaur Keuangan</div>
+                                <div class="org-name">Endang Susilowati</div>
+                            </div>
+                            <div class="org-card">
+                                <div class="org-role">Kaur Umum & Perencanaan</div>
+                                <div class="org-name">Ahmad Fauzi, A.Md.</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Level 3: Jajaran Kasi -->
+                        <div class="org-group-title">Kepala Seksi (KASI)</div>
+                        <div class="org-subgrid">
+                            <div class="org-card">
+                                <div class="org-role">Kasi Pemerintahan</div>
+                                <div class="org-name">Bambang Triyono</div>
+                            </div>
+                            <div class="org-card">
+                                <div class="org-role">Kasi Kesejahteraan & Pelayanan</div>
+                                <div class="org-name">Rini Astuti, S.Pd.</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Level 4: Jajaran Kepala Dusun -->
+                        <div class="org-group-title">Kepala Dusun (KASUN)</div>
+                        <div class="org-subgrid-dusun">
+                            <div class="org-card-dusun">
+                                <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="org-role">Kasun Krajan</div>
+                                    <div class="org-name">Tri Wahyudi</div>
+                                </div>
+                            </div>
+                            <div class="org-card-dusun">
+                                <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="org-role">Kasun Wonoanti</div>
+                                    <div class="org-name">Joko Susilo</div>
+                                </div>
+                            </div>
+                            <div class="org-card-dusun">
+                                <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="org-role">Kasun Miren</div>
+                                    <div class="org-name">Nanang Kosim</div>
+                                </div>
+                            </div>
+                            <div class="org-card-dusun">
+                                <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="org-role">Kasun Sidomulyo</div>
+                                    <div class="org-name">Edi Sunarto</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 — Potensi Desa -->
+        <section id="potensi" class="potential-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-in">
+                    <span class="section-tag">POTENSI & SEKTOR UNGGULAN</span>
+                    <h2 class="section-title">Pilar Ekonomi Desa Wonoanti</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Mengembangkan keunggulan lokal mulai dari pertanian tangguh, produk kerajinan bernilai tinggi, hingga desa wisata edukatif.
+                    </p>
+                </div>
+                
+                <div class="potential-grid">
+                    <!-- Potensi Card 1 -->
+                    <div class="potential-card reveal-slide-up">
+                        <div class="potential-img-wrapper">
+                            <img src="assets/images/pertanian.png" alt="Pertanian Desa Wonoanti" class="potential-img">
+                            <div class="potential-category-tag">Pertanian</div>
+                        </div>
+                        <div class="potential-info">
+                            <h3 class="potential-card-title">Ketahanan Pangan & Pertanian</h3>
+                            <p class="potential-card-desc">
+                                Dengan didukung hamparan lahan persawahan subur, sektor pertanian menjadi tulang punggung pemenuhan pangan desa, menghasilkan komoditas padi premium, jagung, serta sayuran organik yang segar.
+                            </p>
+                            <span class="potential-link">
+                                Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Potensi Card 2 -->
+                    <div class="potential-card reveal-slide-up" style="animation-delay: 0.1s;">
+                        <div class="potential-img-wrapper">
+                            <img src="assets/images/umkm.png" alt="UMKM Kerajinan Anyaman Bambu Wonoanti" class="potential-img">
+                            <div class="potential-category-tag">UMKM</div>
+                        </div>
+                        <div class="potential-info">
+                            <h3 class="potential-card-title">Sentra Anyaman Bambu Tradisional</h3>
+                            <p class="potential-card-desc">
+                                Dikenal sebagai sentra anyaman bambu terkemuka di Trenggalek, kerajinan tangan hasil karya warga Wonoanti memiliki mutu tinggi, mulai dari peralatan dapur etnik hingga dekorasi bergaya modern ekspor.
+                            </p>
+                            <span class="potential-link">
+                                Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Potensi Card 3 -->
+                    <div class="potential-card reveal-slide-up" style="animation-delay: 0.2s;">
+                        <div class="potential-img-wrapper">
+                            <img src="assets/images/wisata.png" alt="Desa Wisata Edukasi Wonoanti" class="potential-img">
+                            <div class="potential-category-tag">Wisata</div>
+                        </div>
+                        <div class="potential-info">
+                            <h3 class="potential-card-title">Wisata Alam & Edukasi Kriya</h3>
+                            <p class="potential-card-desc">
+                                Menawarkan keindahan alam perdesaan yang asri dikombinasikan dengan eduwisata kriya bambu. Wisatawan dapat menjelajahi keindahan sungai desa yang asri serta belajar langsung menganyam bambu dari pengrajin.
+                            </p>
+                            <span class="potential-link">
+                                Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 — Galeri Desa -->
+        <section id="galeri" class="gallery-section section-padding bg-white">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-in">
+                    <span class="section-tag">GALERI DOKUMENTASI</span>
+                    <h2 class="section-title">Dokumentasi Kegiatan Desa</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Kumpulan potret kerukunan warga, keindahan alam, kearifan lokal, serta beragam kegiatan pembangunan di Desa Wonoanti.
+                    </p>
+                </div>
+                
+                <!-- Gallery Filter Buttons (Interactive Mock) -->
+                <div class="gallery-filters reveal-fade-in">
+                    <button class="filter-btn active" data-filter="all">Semua Foto</button>
+                    <button class="filter-btn" data-filter="kegiatan">Kegiatan Warga</button>
+                    <button class="filter-btn" data-filter="lingkungan">Lingkungan Desa</button>
+                    <button class="filter-btn" data-filter="budaya">Adat & Budaya</button>
+                    <button class="filter-btn" data-filter="potensi">Kerajinan Khas</button>
+                </div>
+                
+                <!-- Gallery Grid -->
+                <div class="gallery-grid reveal-slide-up">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item" data-category="kegiatan" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1544650031-dfcd8b141886?auto=format&fit=crop&w=800&q=80" alt="Gotong Royong Bersama Membangun Infrastruktur Lingkungan" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Kegiatan Warga</span>
+                                <h4>Kerja Bakti Gotong Royong</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item" data-category="lingkungan" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1611602132416-da2045990f76?auto=format&fit=crop&w=800&q=80" alt="Keasrian Jalan Desa dan Sawah Hijau yang Subur" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Lingkungan Desa</span>
+                                <h4>Pemandangan Sawah Hijau</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item" data-category="budaya" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1537953773047-22b2743931f9?auto=format&fit=crop&w=800&q=80" alt="Pementasan Tari Tradisional pada Acara Bersih Desa" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Adat & Budaya</span>
+                                <h4>Pentas Seni Budaya</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item" data-category="potensi" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1608976451676-cb6280436814?auto=format&fit=crop&w=800&q=80" alt="Pembuatan Kerajinan Anyaman Bambu Bernilai Ekspor" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Kerajinan Khas</span>
+                                <h4>Proses Anyaman Bambu</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item" data-category="kegiatan" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&w=800&q=80" alt="Rapat Musyawarah Desa Bersama Tokoh Masyarakat" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Kegiatan Warga</span>
+                                <h4>Musyawarah Rencana Desa</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item" data-category="lingkungan" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1627662236973-4f8259fa2441?auto=format&fit=crop&w=800&q=80" alt="Rumah-rumah Tradisional yang Terawat dan Rapi di Desa Wonoanti" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="maximize-2" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Lingkungan Desa</span>
+                                <h4>Kawasan Asri Permukiman</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7 — Kontak & Hubungi Kami -->
+        <section id="kontak" class="contact-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal-fade-in">
+                    <span class="section-tag">KONTAK & PELAYANAN</span>
+                    <h2 class="section-title">Hubungi Kantor Desa</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">
+                        Kami siap membantu melayani segala kebutuhan administratif dan kebutuhan informasi mengenai Desa Wonoanti.
+                    </p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Left Column: Contact info & service schedule -->
+                    <div class="contact-info-area reveal-slide-left">
+                        <h3 class="contact-subtitle">Pemerintah Desa Wonoanti</h3>
+                        <p class="contact-info-desc">
+                            Untuk perizinan, surat keterangan, informasi UMKM, atau kebutuhan lainnya silakan hubungi saluran di bawah ini atau kunjungi kantor pelayanan kami pada jam kerja.
+                        </p>
+                        
+                        <div class="info-items-list">
+                            <!-- Info Item 1 -->
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                                <div class="info-content">
+                                    <h5>Alamat Kantor</h5>
+                                    <p>Jl. Raya Gandusari No. 12, Desa Wonoanti, Kecamatan Gandusari, Kabupaten Trenggalek, Jawa Timur 66372</p>
+                                </div>
+                            </div>
+                            <!-- Info Item 2 -->
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="phone"></i></div>
+                                <div class="info-content">
+                                    <h5>Nomor Telepon</h5>
+                                    <p>(0355) 791-234 / +62 812-3456-7890</p>
+                                </div>
+                            </div>
+                            <!-- Info Item 3 -->
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="mail"></i></div>
+                                <div class="info-content">
+                                    <h5>Email Resmi</h5>
+                                    <p>info@wonoanti.desa.id</p>
+                                </div>
+                            </div>
+                            <!-- Info Item 4 -->
+                            <div class="info-item">
+                                <div class="info-icon"><i data-lucide="clock"></i></div>
+                                <div class="info-content">
+                                    <h5>Jam Pelayanan Publik</h5>
+                                    <p>Senin - Kamis : 08.00 - 15.00 WIB</p>
+                                    <p>Jumat : 08.00 - 11.30 WIB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Interactive Map -->
+                    <div class="contact-map-area reveal-slide-right">
+                        <div class="map-container-wrapper">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15794.137837775957!2d111.7058869!3d-8.08272995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e791244bbd9165d%3A0xea2df2525368a3!2sWonoanti%2C%20Gandusari%2C%20Trenggalek%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1717800000000!5m2!1sen!2sid" 
+                                class="map-iframe" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade" 
+                                title="Peta Lokasi Kantor Desa Wonoanti">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+        <div class="container footer-grid">
+            <!-- Col 1: About -->
+            <div class="footer-col-about">
+                <a href="#beranda" class="logo-area-footer">
+                    <div class="logo-icon-footer">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 5 L85 25 V65 L50 95 L15 65 V25 Z" fill="#ffffff" stroke="#d8f3dc" stroke-width="4"/>
+                            <circle cx="50" cy="35" r="8" fill="#1b4332"/>
+                            <path d="M35 55 Q50 40 65 55" stroke="#1b4332" stroke-width="4" fill="none"/>
+                            <path d="M25 68 Q50 55 75 68" stroke="#1b4332" stroke-width="4" fill="none"/>
+                            <path d="M50 42 V80" stroke="#1b4332" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-footer">
+                        <span class="logo-title-footer">WONOANTI</span>
+                        <span class="logo-subtitle-footer">Profil Desa Resmi</span>
+                    </div>
+                </a>
+                <p class="footer-desc">
+                    Website profil resmi yang didesain secara profesional sebagai bentuk media transparansi informasi administrasi publik, potensi ekonomi unggulan, dan sarana komunikasi interaktif masyarakat Desa Wonoanti.
+                </p>
+                <div class="footer-socials">
+                    <a href="#" class="social-link" aria-label="Facebook Desa"><i data-lucide="facebook"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram Desa"><i data-lucide="instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="YouTube Desa"><i data-lucide="youtube"></i></a>
+                </div>
+            </div>
+            
+            <!-- Col 2: Quick Links -->
+            <div class="footer-col-links">
+                <h4 class="footer-title">Tautan Cepat</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#beranda"><i data-lucide="chevron-right"></i> Beranda Utama</a></li>
+                    <li><a href="#profil"><i data-lucide="chevron-right"></i> Sejarah & Visi Misi</a></li>
+                    <li><a href="#pemerintahan"><i data-lucide="chevron-right"></i> Jajaran Pemerintahan</a></li>
+                    <li><a href="#potensi"><i data-lucide="chevron-right"></i> Potensi & UMKM</a></li>
+                    <li><a href="#galeri"><i data-lucide="chevron-right"></i> Galeri Dokumentasi</a></li>
+                </ul>
+            </div>
+            
+            <!-- Col 3: Contact Summary -->
+            <div class="footer-col-contact">
+                <h4 class="footer-title">Kontak Pelayanan</h4>
+                <ul class="footer-contact-list">
+                    <li>
+                        <i data-lucide="map-pin"></i>
+                        <span>Jl. Raya Gandusari No. 12, Wonoanti, Trenggalek</span>
+                    </li>
+                    <li>
+                        <i data-lucide="phone"></i>
+                        <span>(0355) 791-234</span>
+                    </li>
+                    <li>
+                        <i data-lucide="mail"></i>
+                        <span>info@wonoanti.desa.id</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Copyright Bottom -->
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <p>&copy; 2026 Pemerintah Desa Wonoanti. Hak Cipta Dilindungi Undang-Undang. Website Resmi Trenggalek.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox">
+        <button class="lightbox-close" onclick="closeLightbox()"><i data-lucide="x"></i></button>
+        <button class="lightbox-prev" onclick="changeImage(-1)"><i data-lucide="chevron-left"></i></button>
+        <button class="lightbox-next" onclick="changeImage(1)"><i data-lucide="chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img src="" id="lightbox-img" alt="Ukuran penuh galeri">
+            <div class="lightbox-caption" id="lightbox-caption">Judul Gambar</div>
+        </div>
+    </div>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
