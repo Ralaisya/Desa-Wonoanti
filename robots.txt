@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://desa-wonoanti.vercel.app/sitemap.xml
