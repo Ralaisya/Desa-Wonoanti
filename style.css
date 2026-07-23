@@ -1691,3 +1691,158 @@ img {
         align-items: center;
     }
 }
+
+/* ==========================================================================
+   POTENTIAL MODAL POPUP
+   ========================================================================== */
+.potential-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.potential-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.potential-modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(8px);
+}
+
+.potential-modal-content {
+    position: relative;
+    background-color: var(--background-white);
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    border-radius: var(--border-radius-xl);
+    box-shadow: var(--shadow-2xl);
+    overflow-y: auto;
+    z-index: 1102;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.potential-modal.open .potential-modal-content {
+    transform: translateY(0);
+}
+
+.potential-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text-dark);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-md);
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.potential-modal-close:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: rotate(90deg);
+}
+
+.potential-modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .potential-modal-body {
+        flex-direction: row;
+    }
+}
+
+.potential-modal-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .potential-modal-img {
+        width: 45%;
+        height: auto;
+        min-height: 400px;
+    }
+}
+
+.potential-modal-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .potential-modal-text {
+        width: 55%;
+        padding: 40px;
+    }
+}
+
+.potential-modal-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: var(--accent-light);
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    align-self: flex-start;
+}
+
+.potential-modal-title {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.potential-modal-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.potential-modal-desc p {
+    margin-bottom: 12px;
+}
+
+.potential-modal-source {
+    margin-top: auto;
+}

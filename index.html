@@ -370,9 +370,9 @@
                             <p class="potential-card-desc">
                                 Dengan didukung hamparan lahan persawahan subur, sektor pertanian menjadi tulang punggung pemenuhan pangan desa, menghasilkan komoditas padi premium, jagung, serta sayuran organik yang segar.
                             </p>
-                            <span class="potential-link">
+                            <a href="javascript:void(0)" onclick="openPotentialModal('pertanian')" class="potential-link" style="text-decoration: none;">
                                 Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
-                            </span>
+                            </a>
                         </div>
                     </div>
                     
@@ -387,9 +387,9 @@
                             <p class="potential-card-desc">
                                 Dikenal sebagai sentra anyaman bambu terkemuka di Pacitan, kerajinan tangan hasil karya warga Wonoanti memiliki mutu tinggi, mulai dari peralatan dapur etnik hingga dekorasi bergaya modern ekspor.
                             </p>
-                            <span class="potential-link">
+                            <a href="javascript:void(0)" onclick="openPotentialModal('umkm')" class="potential-link" style="text-decoration: none;">
                                 Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
-                            </span>
+                            </a>
                         </div>
                     </div>
                     
@@ -404,9 +404,9 @@
                             <p class="potential-card-desc">
                                 Menawarkan keindahan alam perdesaan yang asri dikombinasikan dengan eduwisata kriya bambu. Wisatawan dapat menjelajahi keindahan sungai desa yang asri serta belajar langsung menganyam bambu dari pengrajin.
                             </p>
-                            <span class="potential-link">
+                            <a href="javascript:void(0)" onclick="openPotentialModal('wisata')" class="potential-link" style="text-decoration: none;">
                                 Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
-                            </span>
+                            </a>
                         </div>
                     </div>
 
@@ -421,7 +421,7 @@
                             <p class="potential-card-desc">
                                 Wonoanti memiliki potensi kakao luar biasa dengan luas lahan sekitar 25 hektar yang tersebar di Dusun Krajan, Duren, Ngunut, dan Bulih. Hasil produksi kakao di desa ini sangat melimpah dan mampu menghasilkan panen hingga 2 ton dalam sebulan.
                             </p>
-                            <a href="https://lensapacitan.com/potensi-kakao-desa-wonoanti-mampu-produksi-dua-ton-dalam-sebulan/" target="_blank" rel="noopener noreferrer" class="potential-link" style="text-decoration: none; margin-bottom: 6px;">
+                            <a href="javascript:void(0)" onclick="openPotentialModal('kakao')" class="potential-link" style="text-decoration: none; margin-bottom: 6px;">
                                 Selengkapnya <i data-lucide="arrow-right" class="link-arrow"></i>
                             </a>
                             <span style="font-size: 0.8rem; color: #6b7280;">
@@ -686,6 +686,27 @@
         <div class="lightbox-content">
             <img src="" id="lightbox-img" alt="Ukuran penuh galeri">
             <div class="lightbox-caption" id="lightbox-caption">Judul Gambar</div>
+        </div>
+    </div>
+
+    <!-- Potential Detail Modal Popup -->
+    <div class="potential-modal" id="potential-modal">
+        <div class="potential-modal-overlay" onclick="closePotentialModal()"></div>
+        <div class="potential-modal-content">
+            <button class="potential-modal-close" onclick="closePotentialModal()">&times;</button>
+            <div class="potential-modal-body">
+                <img src="" alt="" id="potential-modal-img" class="potential-modal-img">
+                <div class="potential-modal-text">
+                    <span class="potential-modal-tag" id="potential-modal-tag">Kategori</span>
+                    <h3 class="potential-modal-title" id="potential-modal-title">Judul Potensi</h3>
+                    <div class="potential-modal-desc" id="potential-modal-desc">
+                        <!-- Detailed text goes here -->
+                    </div>
+                    <div class="potential-modal-source" id="potential-modal-source">
+                        <!-- Source link -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
