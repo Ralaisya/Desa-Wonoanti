@@ -528,6 +528,7 @@
                 <div class="gallery-filters reveal-fade-in">
                     <button class="filter-btn active" data-filter="all">Semua Foto</button>
                     <button class="filter-btn" data-filter="kegiatan">Kegiatan Warga</button>
+                    <button class="filter-btn" data-filter="proker">Kegiatan Proker</button>
                     <button class="filter-btn" data-filter="lingkungan">Lingkungan Desa</button>
                     <button class="filter-btn" data-filter="budaya">Adat & Budaya</button>
                     <button class="filter-btn" data-filter="potensi">Kerajinan Khas</button>
@@ -535,6 +536,18 @@
                 
                 <!-- Gallery Grid -->
                 <div class="gallery-grid reveal-slide-up">
+                    <!-- Gallery Item: Proker DAGUSIBU UGM -->
+                    <div class="gallery-item" data-category="proker" onclick="openPotentialModal('proker_dagusibu')">
+                        <img src="assets/images/proker_dagusibu.jpg" alt="Kegiatan Edukasi DAGUSIBU dan Swamedikasi oleh KKN-PPM UGM 2026" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i data-lucide="book-open" class="zoom-icon"></i>
+                            <div class="gallery-caption">
+                                <span class="gallery-tag">Kegiatan Proker</span>
+                                <h4>Edukasi Kesehatan & Zoonosis UGM</h4>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Gallery Item 1 -->
                     <div class="gallery-item" data-category="kegiatan" onclick="openLightbox(this)">
                         <img src="https://images.unsplash.com/photo-1544650031-dfcd8b141886?auto=format&fit=crop&w=800&q=80" alt="Gotong Royong Bersama Membangun Infrastruktur Lingkungan" class="gallery-img">

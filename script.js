@@ -185,8 +185,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Open Lightbox
     window.openLightbox = (clickedItem) => {
-        // Collect currently filtered/visible items
-        visibleGalleryItems = Array.from(galleryItems).filter(item => !item.classList.contains('hidden'));
+        // Collect currently filtered/visible items (exclude rich text proker articles from normal image slideshow)
+        visibleGalleryItems = Array.from(galleryItems).filter(item => !item.classList.contains('hidden') && item.getAttribute('data-category') !== 'proker');
         currentImageIndex = visibleGalleryItems.indexOf(clickedItem);
         
         updateLightboxContent();
@@ -362,6 +362,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Melalui pemetaan ini diharapkan upaya pengendalian populasi lalat dapat dilakukan secara lebih terarah dan berbasis data spasial. Dengan demikian, risiko penyebaran penyakit yang berkaitan dengan keberadaan lalat sebagai vektor mekanis dapat ditekan, sehingga tercipta lingkungan peternakan yang lebih sehat, produktif, dan aman bagi masyarakat Desa Wonoanti, khususnya di Dusun Duren dan Dusun Pojok.</p>
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Sub Unit Wonoanti</span>'
+        },
+        proker_dagusibu: {
+            tag: 'Kegiatan Proker',
+            title: 'Edukasi DAGUSIBU, Swamedikasi, serta Pencegahan Leptospirosis & Zoonosis',
+            image: 'assets/images/proker_dagusibu.jpg',
+            desc: `
+                <p>Penggunaan obat yang tepat menjadi salah satu kunci dalam menjaga kesehatan masyarakat. Namun, masih banyak masyarakat yang belum memahami cara mendapatkan, menggunakan, menyimpan, dan membuang obat dengan benar. Di sisi lain, swamedikasi yang dilakukan tanpa pengetahuan yang memadai juga berisiko menyebabkan penggunaan obat yang tidak rasional. Selain itu, masyarakat perlu meningkatkan kewaspadaan terhadap penyakit zoonosis, khususnya leptospirosis, yang masih menjadi salah satu masalah kesehatan di Indonesia, terutama di wilayah pedesaan dengan aktivitas pertanian dan peternakan yang cukup tinggi.</p>
+                <p>Berangkat dari kondisi tersebut, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan menyelenggarakan kegiatan <em>Edukasi DAGUSIBU, Swamedikasi, serta Pencegahan Leptospirosis dan Zoonosis</em> pada <em>13 Juli 2026</em> di <em>Balai Dusun Ngunut, Desa Tulakan, Kabupaten Pacitan</em>. Kegiatan ini dilaksanakan bersamaan dengan Posyandu Balita dan Posyandu Lansia sehingga dihadiri oleh masyarakat dari berbagai kelompok usia. Momen posyandu dimanfaatkan sebagai sarana untuk menyampaikan edukasi kesehatan karena menjadi salah satu kegiatan yang rutin diikuti oleh masyarakat Dusun Ngunut.</p>
+                <p>Materi pertama membahas <strong>DAGUSIBU (Dapatkan, Gunakan, Simpan, dan Buang Obat dengan Benar)</strong>. Masyarakat diajak memahami pentingnya memperoleh obat dari sarana pelayanan kefarmasian yang resmi, menggunakan obat sesuai aturan pakai, menyimpan obat pada kondisi yang tepat agar kualitasnya tetap terjaga, serta membuang obat yang sudah rusak atau kedaluwarsa dengan cara yang aman.</p>
+                <p>Selanjutnya, masyarakat mendapatkan edukasi mengenai <strong>swamedikasi</strong>, yaitu pengobatan mandiri untuk mengatasi keluhan ringan. Pada sesi ini dijelaskan cara memilih obat sesuai indikasi, membaca informasi pada kemasan, serta mengenali kondisi yang masih dapat ditangani sendiri dan kapan perlu memeriksakan diri ke tenaga kesehatan.</p>
+                <p>Selain penggunaan obat, masyarakat juga memperoleh edukasi mengenai <strong>leptospirosis dan penyakit zoonosis</strong>. Materi yang disampaikan meliputi penyebab penyakit, cara penularan, gejala yang perlu diwaspadai, serta langkah-langkah pencegahan yang dapat diterapkan dalam kehidupan sehari-hari. Edukasi juga menekankan pentingnya menjaga kebersihan lingkungan, mengendalikan populasi tikus, menggunakan alat pelindung diri saat bekerja di area yang berisiko, serta segera memeriksakan diri ke fasilitas kesehatan apabila mengalami gejala yang mengarah pada leptospirosis.</p>
+                <p>Kegiatan ini merupakan kolaborasi mahasiswa dari berbagai disiplin ilmu. Materi <em>DAGUSIBU</em> dan <em>swamedikasi</em> disampaikan oleh mahasiswa <em>Program Studi Farmasi</em>, sedangkan materi <em>zoonosis</em> dan <em>leptospirosis</em> dibawakan oleh mahasiswa <em>Program Studi Kedokteran Hewan (FKH)</em>. Kolaborasi lintas bidang ini menghadirkan edukasi yang lebih komprehensif mengenai penggunaan obat yang rasional sekaligus pencegahan penyakit yang berasal dari hewan.</p>
+                <p>Sebagai pelengkap kegiatan edukasi, tim KKN juga memperkenalkan <strong>Peta Persebaran Risiko Zoonosis Desa Wonoanti</strong> yang disusun oleh mahasiswa <em>Program Studi Teknik Sipil</em> menggunakan <em>Sistem Informasi Geografis (SIG/GIS)</em>. Peta tersebut dibuat berdasarkan hasil survei lapangan dan menggambarkan wilayah yang memiliki potensi risiko zoonosis. Kehadirannya menjadi media edukasi sekaligus memberikan gambaran awal mengenai wilayah yang memiliki potensi risiko zoonosis sehingga dapat mendukung upaya peningkatan kewaspadaan masyarakat dan pemerintah desa.</p>
+                <p>Antusiasme masyarakat terlihat sepanjang kegiatan berlangsung. Masyarakat tidak hanya menyimak materi, tetapi juga aktif mengajukan pertanyaan mengenai penggunaan antibiotik, cara menyimpan obat di rumah, hingga langkah-langkah pencegahan leptospirosis. Diskusi yang berlangsung hangat menunjukkan tingginya minat masyarakat terhadap informasi kesehatan yang dekat dengan kehidupan sehari-hari.</p>
+                <p>Melalui kegiatan ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap masyarakat semakin memahami pentingnya pengelolaan obat yang benar, mampu melakukan swamedikasi secara rasional, serta lebih waspada terhadap penyakit zoonosis. Pengetahuan yang diperoleh selama kegiatan diharapkan dapat diterapkan dalam kehidupan sehari-hari sehingga mampu mendukung terwujudnya masyarakat yang lebih sehat, mandiri, dan peduli terhadap kesehatan lingkungan.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         }
     };
 
