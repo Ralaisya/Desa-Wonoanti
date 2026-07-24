@@ -568,6 +568,23 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_gamau: {
+            tag: 'Kegiatan Proker',
+            title: 'Sosialisasi & Praktik Budidaya Rumput Gama Umami',
+            image: 'assets/images/proker_gamau.jpg',
+            desc: `
+                <p>Ketersediaan hijauan pakan berkualitas tinggi menjadi salah satu langkah penting dalam menjaga keberlanjutan bisnis peternakan ruminansia. Melalui pemanfaatan inovasi pakan unggul, peternak dapat lebih mudah memenuhi kebutuhan energi, protein, dan mineral ternak, serta menyediakan serat kasar untuk mendukung metabolisme rumen secara optimal.</p>
+                <p>Sebagai upaya meningkatkan pengetahuan dan keterampilan peternak, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan menyelenggarakan kegiatan sosialisasi dan praktik penanaran rumput Gama Umami di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan pada 2 Juli 2026. Kegiatan ini diikuti oleh seluruh peternak di Dusun Ngunut dan Dusun Krajan agar penyampaian materi serta praktik budidaya dapat diterapkan secara langsung di lahan pakan masyarakat.</p>
+                <p>Kegiatan diawali dengan pemaparan materi mengenai sejarah dan keunggulan rumput Gama Umami. Rumput ini merupakan hasil inovasi pemuliaan fisik rumput gajah dari Guru Besar Fakultas Peternakan UGM, <strong>Prof. Ir. Nafiatul Umami, S.Pt., MP., Ph.D., IPU., ASEAN Eng.</strong>, bersama Badan Tenaga Nuklir Nasional melalui teknologi radiasi sinar gamma dosis 100 Gray yang terbukti aman tanpa sisa radioaktif, serta telah terdaftar resmi di Kementerian Pertanian dengan nomor 889/PVHP/2020.</p>
+                <p>Selanjutnya, mahasiswa KKN menyampaikan materi mengenai keunggulan morfologi dan nutrisi rumput Gama Umami. Rumput ini memiliki tinggi mencapai 3,4 hingga 3,7 meter, daun sepanjang 1,1 hingga 1,3 meter, diameter batang 2,2 hingga 2,9 sentimeter, serta mampu menghasilkan 41 hingga 50 tunas per rumpun. Dari segi produktivitas, rumput ini menghasilkan biomassa segar sebesar 50 hingga 60 kilogram per meter persegi, jauh melampaui rumput gajah lokal. Kelebihan utamanya meliputi tekstur daun halus tanpa bulu kasar, batang renyah dan manis, kandungan protein kasar 10 hingga 14 persen, serta nilai kecernaan bahan kering yang tinggi mencapai 72,68 persen.</p>
+                <p>Untuk memperkuat pemahaman, kegiatan dilanjutkan dengan praktik penanaman dan demonstrasi budidaya langsung di lapangan. Peternak diajak mengolah tanah sedalam 30 sentimeter, membuat bedengan, dan menanam bibit stek batang berdiameter 2 sentimeter dengan posisi miring 45 derajat atau ditidurkan mendatar. Penanaman dilakukan menggunakan jarak 0,5 dengan 1 meter atau 60 dengan 40 sentimeter yang ideal diterapkan pada awal musim hujan.</p>
+                <p>Setelah sesi penanaman, kegiatan dilanjutkan dengan penjelasan teknik pemeliharaan dan siklus pemanenan. Pemeliharaan dilakukan melalui penyiraman, penggemburan tanah, dan pemupukan rutin. Panen pertama dilakukan saat tanaman berumur 12 minggu dengan menyisakan tinggi batang 10 sentimeter dari tanah guna merangsang regenerasi tunas, sedangkan panen berikutnya dapat dilakukan setiap 45 hingga 50 hari pada musim hujan atau 60 hari pada musim kemarau.</p>
+                <p>Rangkaian kegiatan kemudian ditutup dengan edukasi mitigasi risiko dan sistem penyajian pakan. Mengingat batangnya yang renyah dan manis rentan terhadap injakan serta menarik hama seperti tikus dan belalang, peternak dianjurkan menerapkan sistem potong bawa untuk disajikan langsung di kandang.</p>
+                <p>Seluruh rangkaian kegiatan berlangsung dengan antusias. Para peternak aktif bertanya, memperhatikan setiap tahap penanaman, serta berminat membudidayakan rumput unggul ini di lahan mereka.</p>
+                <p>Melalui kegiatan ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap peternak di Dusun Ngunut dan Dusun Krajan Desa Wonoanti semakin memahami pentingnya penggunaan hijauan pakan berkualitas tinggi. Pengetahuan yang diperoleh diharapkan dapat diterapkan secara mandiri sehingga mampu mendukung terbentuknya sektor peternakan yang produktif, efisien, dan berkelanjutan.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
