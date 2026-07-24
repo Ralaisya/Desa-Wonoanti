@@ -151,6 +151,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const galleryItems = document.querySelectorAll('.gallery-item');
 
+    // Gallery pagination / "Show More" functionality
+    const showMoreBtn = document.getElementById('gallery-show-more-btn');
+    let galleryLimit = 6;
+    let isGalleryExpanded = false;
+    let currentFilter = 'all';
+
+    const updateGalleryVisibility = () => {
+        // Collect items matching current filter
+        const filteredItems = Array.from(galleryItems).filter(item => {
+            return currentFilter === 'all' || item.getAttribute('data-category') === currentFilter;
+        });
+
+        // Hide all items first
+        galleryItems.forEach(item => item.classList.add('hidden'));
+
+        // Determine how many to show
+        const itemsToShow = isGalleryExpanded ? filteredItems : filteredItems.slice(0, galleryLimit);
+
+        // Show those items
+        itemsToShow.forEach(item => {
+            item.classList.remove('hidden');
+            item.style.animation = 'fadeIn 0.4s ease';
+        });
+
+        // Update button visibility
+        if (filteredItems.length > galleryLimit) {
+            showMoreBtn.style.display = 'inline-flex';
+            if (isGalleryExpanded) {
+                showMoreBtn.innerHTML = 'Lihat Lebih Sedikit <i data-lucide="chevron-up" style="width: 18px; height: 18px; margin-left: 8px;"></i>';
+            } else {
+                showMoreBtn.innerHTML = 'Lihat Lebih Banyak <i data-lucide="chevron-down" style="width: 18px; height: 18px; margin-left: 8px;"></i>';
+            }
+            // Re-render icons if Lucide is loaded
+            if (window.lucide) {
+                window.lucide.createIcons();
+            }
+        } else {
+            showMoreBtn.style.display = 'none';
+        }
+    };
+
     filterButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
             // Remove active class from other buttons
@@ -158,19 +199,21 @@ document.addEventListener('DOMContentLoaded', () => {
             // Add to current button
             btn.classList.add('active');
             
-            const filterValue = btn.getAttribute('data-filter');
-            
-            galleryItems.forEach(item => {
-                if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                    item.classList.remove('hidden');
-                    // Retrigger light scale animation
-                    item.style.animation = 'fadeIn 0.4s ease';
-                } else {
-                    item.classList.add('hidden');
-                }
-            });
+            currentFilter = btn.getAttribute('data-filter');
+            isGalleryExpanded = false; // Reset expansion when changing filter
+            updateGalleryVisibility();
         });
     });
+
+    if (showMoreBtn) {
+        showMoreBtn.addEventListener('click', () => {
+            isGalleryExpanded = !isGalleryExpanded;
+            updateGalleryVisibility();
+        });
+    }
+
+    // Initialize gallery visibility on load
+    updateGalleryVisibility();
 
     /* ==========================================================================
        6. LIGHTBOX MODAL SYSTEM
