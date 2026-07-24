@@ -450,6 +450,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Melalui kegiatan ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap masyarakat semakin peduli terhadap kondisi kesehatannya serta terdorong untuk menerapkan pola hidup sehat dalam kehidupan sehari-hari. Sinergi antara perguruan tinggi, tenaga kesehatan, dan masyarakat diharapkan dapat menjadi langkah nyata dalam mendukung terwujudnya masyarakat yang sehat, mandiri, dan produktif.</p>
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
+        proker_voli: {
+            tag: 'Kegiatan Proker',
+            title: 'Gotong Royong Revitalisasi Lapangan Voli Desa Duren',
+            image: 'assets/images/proker_voli.jpg',
+            desc: `
+                <p>Lapangan voli menjadi salah satu fasilitas yang sering dimanfaatkan masyarakat Desa Duren, Wonoanti, untuk berolahraga maupun berkumpul. Agar tetap nyaman digunakan, diperlukan perawatan secara berkala. Berangkat dari hal tersebut, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan mengadakan kegiatan kerja bakti dan revitalisasi Lapangan Voli Desa Duren pada 12 Juli 2026 bersama warga setempat.</p>
+                <p>Kegiatan diawali dengan kerja bakti membersihkan area lapangan. Mahasiswa KKN bersama warga membersihkan daun-daun kering, rumput liar, serta merapikan lingkungan sekitar lapangan agar lebih bersih dan nyaman. Suasana gotong royong berlangsung hangat dengan partisipasi aktif masyarakat yang turut membantu sejak pagi.</p>
+                <p>Setelah proses pembersihan selesai, kegiatan dilanjutkan dengan revitalisasi lapangan melalui pengecatan ulang. Mahasiswa KKN bersama beberapa pemuda desa membuat mural dan mempertegas garis lapangan menggunakan warna-warna cerah sehingga tampilan lapangan menjadi lebih menarik. Proses pengecatan dilakukan bersama-sama dengan penuh semangat hingga menghasilkan lapangan yang tampak lebih hidup.</p>
+                <p>Kegiatan ini tidak hanya bertujuan mempercantik lapangan, tetapi juga mengajak masyarakat untuk bersama-sama menjaga fasilitas umum yang ada di desa. Dengan kondisi lapangan yang lebih baik, diharapkan masyarakat, terutama anak-anak dan para pemuda, semakin termotivasi untuk berolahraga dan memanfaatkan lapangan sebagai ruang berkegiatan.</p>
+                <p>Selama kegiatan berlangsung, terlihat kebersamaan yang terjalin antara mahasiswa KKN dan masyarakat. Mulai dari membersihkan lapangan, menyiapkan cat, hingga mengecat mural dilakukan secara gotong royong. Semangat kebersamaan inilah yang menjadi salah satu nilai penting dalam pelaksanaan KKN, yaitu membangun desa melalui kolaborasi dengan masyarakat.</p>
+                <p>Melalui kegiatan revitalisasi ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap Lapangan Voli Desa Duren dapat menjadi fasilitas yang lebih nyaman, indah, dan bermanfaat bagi masyarakat. Selain itu, kegiatan ini juga diharapkan dapat menumbuhkan kepedulian bersama untuk terus merawat fasilitas umum sehingga dapat digunakan dalam jangka waktu yang panjang.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         }
     };
 
