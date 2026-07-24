@@ -502,6 +502,21 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_apoteker: {
+            tag: 'Kegiatan Proker',
+            title: 'Program Apoteker Cilik & Edukasi Obat Sekolah',
+            image: 'assets/images/proker_apoteker.jpg',
+            desc: `
+                <p>Menanamkan kesadaran akan pentingnya kesehatan dapat dimulai sejak usia sekolah. Selain membiasakan perilaku hidup bersih dan sehat, anak-anak juga perlu mengenal berbagai profesi tenaga kesehatan agar memahami peran masing-masing dalam menjaga kesehatan masyarakat. Salah satunya adalah apoteker, profesi yang berperan dalam memastikan obat digunakan secara tepat, aman, dan rasional.</p>
+                <p>Untuk mengenalkan profesi tersebut, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan menggelar program <em>Apoteker Cilik</em> pada <em>15 Juli 2026</em> di <em>SDIT Al Wakil Wonoanti</em>, Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan. Kegiatan ini diikuti oleh siswa-siswi kelas VI yang antusias mengikuti setiap rangkaian acara.</p>
+                <p>Kegiatan diawali dengan <strong>Detektif Lingkungan Sehat</strong>. Siswa-siswi dibagi ke dalam beberapa kelompok dan diajak berkeliling lingkungan sekolah sambil membawa lembar observasi. Mereka mengamati kondisi lingkungan, mencari potensi sumber penyakit, lalu mencatat dan mempresentasikan hasil temuannya. Melalui kegiatan ini, siswa-siswi belajar bahwa menjaga kebersihan lingkungan merupakan salah satu cara sederhana untuk mencegah penyakit.</p>
+                <p>Dari hasil pengamatan tersebut, mahasiswa KKN mengajak siswa-siswi berdiskusi tentang pentingnya menjaga kesehatan dan memperkenalkan berbagai tenaga kesehatan yang berperan dalam kehidupan sehari-hari. Salah satunya adalah <strong>apoteker</strong>. Dengan penyampaian yang sederhana dan disertai contoh-contoh yang dekat dengan keseharian, siswa-siswi diajak mengenal tugas apoteker dalam memastikan obat yang diterima masyarakat aman, bermutu, dan digunakan dengan benar.</p>
+                <p>Setelah itu, siswa-siswi mengikuti praktik sederhana kefarmasian. Mereka diperkenalkan dengan beberapa alat yang digunakan di bidang farmasi, kemudian secara bergantian mencoba menggerus tablet menggunakan mortir dan stamper, serta melakukan simulasi pembuatan puyer dan kapsul. Praktik ini memberikan pengalaman baru sekaligus gambaran mengenai salah satu keterampilan yang dimiliki seorang apoteker.</p>
+                <p>Suasana semakin meriah saat sesi kuis interaktif dimulai. Siswa-siswi tampak antusias menjawab berbagai pertanyaan seputar profesi apoteker dan penggunaan obat yang benar. Sebagai bentuk apresiasi, Tim KKN-PPM UGM Unit Tilik Tulakan memberikan hadiah kepada siswa-siswi yang berhasil menjawab pertanyaan dengan tepat sehingga suasana belajar menjadi semakin seru dan menyenangkan.</p>
+                <p>Melalui program ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap siswa-siswi SDIT Al Wakil Wonoanti semakin mengenal profesi apoteker, memahami pentingnya penggunaan obat yang benar, serta termotivasi untuk menerapkan perilaku hidup bersih dan sehat dalam kehidupan sehari-hari.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
