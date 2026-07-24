@@ -435,6 +435,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Melalui pelaksanaan program ini, mahasiswa KKN-PPM UGM Unit Tilik Tulakan diharapkan dapat memberikan kontribusi nyata dalam mendukung transformasi digital desa, memperkuat branding produk lokal, meningkatkan eksistensi UMKM di era digital, serta membuka peluang pemasaran yang lebih luas bagi pelaku usaha. Dengan demikian, program ini tidak hanya menghasilkan dokumentasi profil UMKM sebagai luaran kegiatan KKN, tetapi juga menjadi instrumen penting bagi penguatan ekonomi masyarakat Desa Wonoanti yang mandiri, berdaya saing, dan berkelanjutan.</p>
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
+        proker_senam: {
+            tag: 'Kegiatan Proker',
+            title: 'Senam Bersama & Pemeriksaan Kesehatan Gratis',
+            image: 'assets/images/proker_senam.png',
+            desc: `
+                <p>Menjaga kesehatan tidak hanya dilakukan saat sakit, tetapi juga melalui upaya pencegahan dan deteksi dini. Salah satu langkah sederhana yang dapat dilakukan adalah rutin berolahraga serta memantau kondisi kesehatan secara berkala. Kesadaran akan pentingnya pola hidup sehat menjadi bekal bagi masyarakat untuk mencegah berbagai penyakit, terutama penyakit tidak menular yang banyak dijumpai pada kelompok lanjut usia.</p>
+                <p>Sebagai bentuk dukungan terhadap upaya promotif dan preventif di masyarakat, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan menyelenggarakan kegiatan <em>senam bersama dan pemeriksaan kesehatan gratis</em> pada <em>1 Juli 2026</em> di <em>Balai Dusun Ngunut, Desa Tulakan, Kabupaten Pacitan</em>. Kegiatan ini terlaksana melalui kolaborasi dengan <strong>Polindes Wonoanti</strong> dan diikuti oleh kurang lebih <strong>100 masyarakat</strong>, yang mayoritas merupakan lansia. Antusiasme masyarakat terlihat sejak pagi hari dengan hadir mengikuti seluruh rangkaian kegiatan.</p>
+                <p>Kegiatan diawali dengan senam bersama yang dipandu oleh mahasiswa KKN. Suasana berlangsung meriah dengan partisipasi aktif masyarakat yang mengikuti setiap gerakan senam. Selain membantu meningkatkan kebugaran, senam bersama juga menjadi sarana untuk mengajak masyarakat membiasakan aktivitas fisik sebagai bagian dari pola hidup sehat.</p>
+                <p>Usai senam, masyarakat mengikuti pemeriksaan kesehatan gratis yang meliputi <strong>pengukuran tekanan darah</strong>, <strong>pemeriksaan kadar gula darah</strong>, <strong>pemeriksaan kesehatan mata</strong>, and <strong>pemeriksaan kesehatan gigi</strong>. Seluruh pemeriksaan dilakukan oleh tenaga kesehatan dari <strong>Polindes Wonoanti</strong> dengan didampingi mahasiswa KKN. Melalui pemeriksaan ini, masyarakat dapat mengetahui kondisi kesehatannya sekaligus melakukan deteksi dini terhadap berbagai faktor risiko penyakit.</p>
+                <p>Selain pemeriksaan kesehatan, masyarakat juga memperoleh edukasi singkat mengenai pentingnya menjaga pola makan, rutin beraktivitas fisik, mengonsumsi obat sesuai anjuran tenaga kesehatan, serta melakukan pemeriksaan kesehatan secara berkala. Masyarakat juga diberikan kesempatan untuk berkonsultasi secara langsung dengan tenaga kesehatan terkait hasil pemeriksaan yang telah dilakukan.</p>
+                <p>Kegiatan berlangsung dengan tertib dan mendapat sambutan yang sangat baik dari masyarakat. Kolaborasi antara Tim KKN-PPM UGM Unit Tilik Tulakan dan <strong>Polindes Wonoanti</strong> diharapkan dapat meningkatkan kesadaran masyarakat akan pentingnya menjaga kesehatan melalui pola hidup sehat dan pemeriksaan kesehatan secara rutin.</p>
+                <p>Melalui kegiatan ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap masyarakat semakin peduli terhadap kondisi kesehatannya serta terdorong untuk menerapkan pola hidup sehat dalam kehidupan sehari-hari. Sinergi antara perguruan tinggi, tenaga kesehatan, dan masyarakat diharapkan dapat menjadi langkah nyata dalam mendukung terwujudnya masyarakat yang sehat, mandiri, dan produktif.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         }
     };
 
