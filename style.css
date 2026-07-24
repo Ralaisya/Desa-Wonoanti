@@ -1837,3 +1837,142 @@ img {
 .potential-modal-source {
     margin-top: auto;
 }
+
+/* ==========================================================================
+   SECTION 3 — PETA WILAYAH & TEMATIK
+   ========================================================================== */
+.peta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+    .peta-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .peta-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.peta-card {
+    background-color: var(--background-white);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-duration) ease, box-shadow var(--transition-duration) ease;
+}
+
+.peta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.peta-img-wrapper {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.peta-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-duration) ease;
+}
+
+.peta-card:hover .peta-img {
+    transform: scale(1.05);
+}
+
+.peta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    gap: 8px;
+}
+
+.peta-img-wrapper:hover .peta-overlay {
+    opacity: 1;
+}
+
+.peta-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.peta-overlay span {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.peta-info {
+    padding: 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.peta-card-title {
+    font-size: 1.15rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.peta-card-desc {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* Placeholder Styling */
+.placeholder-img-wrapper {
+    background-color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    height: 200px;
+}
+
+.peta-placeholder-inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.placeholder-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.peta-placeholder-inside span {
+    font-size: 0.85rem;
+    font-weight: 500;
+}

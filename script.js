@@ -198,6 +198,27 @@ document.addEventListener('DOMContentLoaded', () => {
     window.closeLightbox = () => {
         lightbox.classList.remove('open');
         document.body.style.overflow = ''; // Restore scrolling
+        
+        // Restore prev/next buttons
+        const prevBtn = lightbox.querySelector('.lightbox-prev');
+        const nextBtn = lightbox.querySelector('.lightbox-next');
+        if (prevBtn) prevBtn.style.display = '';
+        if (nextBtn) nextBtn.style.display = '';
+    };
+
+    // Open Lightbox for Maps (no navigation controls)
+    window.openLightboxMap = (src, caption) => {
+        lightboxImg.src = src;
+        lightboxCaption.innerHTML = caption;
+        
+        // Hide prev/next buttons
+        const prevBtn = lightbox.querySelector('.lightbox-prev');
+        const nextBtn = lightbox.querySelector('.lightbox-next');
+        if (prevBtn) prevBtn.style.display = 'none';
+        if (nextBtn) nextBtn.style.display = 'none';
+        
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden'; // Lock scrolling
     };
 
     // Next/Prev Image Navigation
