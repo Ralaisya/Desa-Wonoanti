@@ -464,6 +464,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Melalui kegiatan revitalisasi ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap Lapangan Voli Desa Duren dapat menjadi fasilitas yang lebih nyaman, indah, dan bermanfaat bagi masyarakat. Selain itu, kegiatan ini juga diharapkan dapat menumbuhkan kepedulian bersama untuk terus merawat fasilitas umum sehingga dapat digunakan dalam jangka waktu yang panjang.</p>
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
+        bencana: {
+            tag: 'Peta Tematik',
+            title: 'Peta Rawan Bencana Desa Wonoanti',
+            image: 'assets/images/peta_bencana.png',
+            desc: `
+                <p>Peta Rawan Bencana Desa Wonoanti disusun sebagai media informasi untuk memberikan gambaran mengenai wilayah yang memiliki potensi risiko bencana, lokasi fasilitas pendukung penanggulangan bencana, serta upaya mitigasi yang dapat dilakukan oleh masyarakat. Informasi ini diharapkan dapat meningkatkan kesiapsiagaan masyarakat dan mendukung pengurangan risiko bencana di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan.</p>
+                <p>Berdasarkan hasil pemetaan, sebagian besar wilayah Desa Wonoanti berada pada zona risiko rendah, yang ditunjukkan dengan warna hijau. Namun, terdapat wilayah dengan tingkat kerawanan yang lebih tinggi pada bagian tengah hingga timur desa yang ditandai dengan warna kuning hingga merah. Wilayah tersebut perlu mendapatkan perhatian lebih karena berpotensi mengalami bencana, terutama saat musim hujan dengan intensitas tinggi. Masyarakat yang berada di sekitar zona tersebut diimbau untuk meningkatkan kewaspadaan terhadap kemungkinan terjadinya bencana seperti tanah longsor maupun gangguan akses jalan akibat kondisi alam.</p>
+                <p>Untuk mendukung penanganan keadaan darurat, peta ini juga menampilkan lokasi titik kumpul yang berfungsi sebagai tempat berkumpul sementara bagi masyarakat setelah melakukan evakuasi. Titik kumpul menjadi lokasi koordinasi antara masyarakat, pemerintah desa, dan petugas penanggulangan bencana sehingga proses pendataan, pemberian bantuan, dan evakuasi lanjutan dapat dilakukan secara lebih cepat dan terarah.</p>
+                <p>Selain itu, peta memuat lokasi klinik sebagai fasilitas pelayanan kesehatan yang berperan penting dalam memberikan pertolongan pertama kepada korban apabila terjadi bencana. Keberadaan klinik diharapkan dapat mempercepat penanganan medis sebelum korban dirujuk ke fasilitas kesehatan yang memiliki pelayanan lebih lengkap.</p>
+                <p>Sebagai bentuk mitigasi bencana, masyarakat diharapkan mengenali wilayah tempat tinggalnya berdasarkan peta kerawanan, mengetahui lokasi titik kumpul dan fasilitas kesehatan terdekat, serta selalu mengikuti informasi dan arahan dari pemerintah desa maupun instansi terkait ketika terjadi kondisi darurat. Upaya lain yang dapat dilakukan meliputi menjaga kelestarian lingkungan, tidak melakukan aktivitas yang dapat meningkatkan risiko longsor, membersihkan saluran drainase secara berkala, serta berpartisipasi dalam kegiatan sosialisasi dan simulasi kebencanaan. Dengan kesiapsiagaan yang baik dan partisipasi aktif seluruh masyarakat, risiko serta dampak bencana di Desa Wonoanti diharapkan dapat diminimalkan.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Sub Unit Wonoanti</span>'
         }
     };
 
