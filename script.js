@@ -452,7 +452,7 @@ document.addEventListener('DOMContentLoaded', () => {
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
         proker_voli: {
-            tag: 'Kegiatan Proker',
+            tag: 'Kegiatan Warga',
             title: 'Gotong Royong Revitalisasi Lapangan Voli Desa Duren',
             image: 'assets/images/proker_voli.jpg',
             desc: `
