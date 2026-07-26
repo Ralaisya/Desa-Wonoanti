@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
         proker_qris: {
             tag: 'Kegiatan Proker',
             title: 'Digitalisasi UMKM: Edukasi QRIS Pembayaran Digital',
-            image: 'assets/images/proker_qris1.jpg',
+            image: 'assets/images/proker_qris3.jpg',
             desc: `
                 <p>Perkembangan teknologi digital telah membawa perubahan besar dalam sistem pembayaran masyarakat, termasuk melalui penggunaan Quick Response Code Indonesian Standard (QRIS) yang semakin banyak dimanfaatkan dalam transaksi sehari-hari. Meski demikian, masih terdapat pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) di pedesaan yang belum memahami manfaat maupun tata cara penggunaan sistem pembayaran digital tersebut. Berangkat dari kondisi tersebut, Mahasiswa Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN-PPM) Universitas Gadjah Mada Tilik Tulakan Periode II Tahun 2026 Subunit Wonoanti melaksanakan program edukasi bertajuk Digitalisasi UMKM yang mengintegrasikan materi mengenai pemanfaatan QRIS, promosi pembayaran cashless, serta keamanan transaksi digital bagi pelaku UMKM.</p>
                 <p>Kegiatan dilaksanakan pada Selasa, 30 Juni 2026, dengan metode door to door di berbagai warung dan usaha milik masyarakat di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan. Pendekatan ini dipilih agar mahasiswa dapat berdialog secara langsung dengan para pelaku usaha, memahami kondisi usaha masing-masing, serta menyampaikan materi edukasi secara lebih personal dan mudah dipahami.</p>
@@ -598,12 +598,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
                     <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
-                        <img src="assets/images/proker_qris2.jpg" alt="Edukasi QRIS di Toko Pakaian" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN menyerahkan leaflet panduan pembuatan QRIS kepada pemilik usaha pakaian di Desa Wonoanti.</p>
+                        <img src="assets/images/proker_qris1.jpg" alt="Edukasi QRIS UMKM" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Pendampingan literasi keuangan digital door-to-door bersama pemilik toko kelontong Wonoanti.</p>
                     </div>
                     <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
-                        <img src="assets/images/proker_qris3.jpg" alt="Sosialisasi Pembayaran Digital Cashless" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Pendampingan pendaftaran QRIS door-to-door di salah satu warung kelontong Desa Wonoanti.</p>
+                        <img src="assets/images/proker_qris2.jpg" alt="Edukasi QRIS di Toko Pakaian" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN menyerahkan leaflet panduan pembuatan QRIS kepada pemilik usaha pakaian di Desa Wonoanti.</p>
                     </div>
                 </div>
 
