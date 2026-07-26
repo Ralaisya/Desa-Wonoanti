@@ -587,6 +587,33 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_qris: {
+            tag: 'Kegiatan Proker',
+            title: 'Digitalisasi UMKM: Edukasi QRIS Pembayaran Digital',
+            image: 'assets/images/proker_qris1.jpg',
+            desc: `
+                <p>Perkembangan teknologi digital telah membawa perubahan besar dalam sistem pembayaran masyarakat, termasuk melalui penggunaan Quick Response Code Indonesian Standard (QRIS) yang semakin banyak dimanfaatkan dalam transaksi sehari-hari. Meski demikian, masih terdapat pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) di pedesaan yang belum memahami manfaat maupun tata cara penggunaan sistem pembayaran digital tersebut. Berangkat dari kondisi tersebut, Mahasiswa Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN-PPM) Universitas Gadjah Mada Tilik Tulakan Periode II Tahun 2026 Subunit Wonoanti melaksanakan program edukasi bertajuk Digitalisasi UMKM yang mengintegrasikan materi mengenai pemanfaatan QRIS, promosi pembayaran cashless, serta keamanan transaksi digital bagi pelaku UMKM.</p>
+                <p>Kegiatan dilaksanakan pada Selasa, 30 Juni 2026, dengan metode door to door di berbagai warung dan usaha milik masyarakat di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan. Pendekatan ini dipilih agar mahasiswa dapat berdialog secara langsung dengan para pelaku usaha, memahami kondisi usaha masing-masing, serta menyampaikan materi edukasi secara lebih personal dan mudah dipahami.</p>
+                <p>Sebelum memberikan edukasi, mahasiswa terlebih dahulu melakukan observasi sederhana untuk mengidentifikasi toko atau UMKM yang memiliki potensi dalam menerapkan sistem pembayaran digital. Pertimbangan tersebut didasarkan pada jenis usaha, jumlah pelanggan, serta aktivitas transaksi yang dilakukan setiap harinya. Setelah itu, mahasiswa memperkenalkan konsep pembayaran digital menggunakan QRIS sebagai salah satu alternatif metode pembayaran yang praktis, cepat, dan aman bagi penjual maupun pembeli.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_qris2.jpg" alt="Edukasi QRIS di Toko Pakaian" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN menyerahkan leaflet panduan pembuatan QRIS kepada pemilik usaha pakaian di Desa Wonoanti.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_qris3.jpg" alt="Sosialisasi Pembayaran Digital Cashless" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Pendampingan pendaftaran QRIS door-to-door di salah satu warung kelontong Desa Wonoanti.</p>
+                    </div>
+                </div>
+
+                <p>Dalam kegiatan ini, mahasiswa menjelaskan bahwa QRIS merupakan standar kode QR nasional yang memungkinkan konsumen melakukan pembayaran melalui berbagai aplikasi pembayaran digital tanpa perlu menggunakan kode QR yang berbeda-beda. Selain memberikan kemudahan dalam proses transaksi, penggunaan QRIS juga dinilai mampu meningkatkan kenyamanan pelanggan karena menyediakan pilihan pembayaran selain uang tunai (cashless). Untuk mendukung pemahaman tersebut, mahasiswa turut memperkenalkan contoh media promosi sederhana, seperti stiker atau informasi penerimaan pembayaran QRIS yang dapat dipasang di area kasir agar lebih mudah diketahui oleh pelanggan.</p>
+                <p>Selain pengenalan QRIS, pelaku UMKM juga memperoleh edukasi mengenai pentingnya menjaga keamanan transaksi digital. Materi yang disampaikan meliputi cara mengenali transaksi yang sah, pentingnya menjaga kerahasiaan data pribadi dan akun pembayaran, serta meningkatkan kewaspadaan terhadap berbagai bentuk penipuan digital yang mengatasnamakan layanan pembayaran. Edukasi ini bertujuan agar para pelaku usaha tidak hanya memahami manfaat penggunaan QRIS, tetapi juga mampu menggunakan layanan pembayaran digital secara aman dan bijaksana.</p>
+                <p>Melalui pendekatan door to door, kegiatan berlangsung secara komunikatif karena setiap pelaku usaha memiliki kesempatan untuk menyampaikan pengalaman, kendala, maupun pertanyaan terkait pembayaran digital. Sebagian pelaku UMKM mengaku masih mengandalkan transaksi tunai karena belum memahami sistem pembayaran digital, sementara sebagian lainnya menunjukkan ketertarikan untuk mulai mempelajari penggunaan QRIS sebagai salah satu alternatif metode pembayaran di usahanya.</p>
+                <p>Melalui kegiatan edukasi ini, Tim KKN-PPM UGM Tilik Tulakan berharap semakin banyak pelaku UMKM di Desa Wonoanti yang mengenal manfaat digitalisasi pembayaran dan memiliki kesiapan untuk beradaptasi dengan perkembangan teknologi finansial. Peningkatan literasi digital diharapkan dapat menjadi langkah awal dalam mendukung daya saing UMKM desa, memperluas pilihan layanan pembayaran bagi pelanggan, serta mendorong pertumbuhan ekonomi masyarakat yang lebih inklusif di era digital.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         proker_gamau: {
             tag: 'Kegiatan Proker',
             title: 'Sosialisasi & Praktik Budidaya Rumput Gama Umami',
