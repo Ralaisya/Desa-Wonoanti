@@ -614,6 +614,33 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_ecoprint: {
+            tag: 'Kegiatan Proker',
+            title: 'Pelatihan Ecoprint Kreatif & Kewirausahaan SD IT',
+            image: 'assets/images/proker_ecoprint1.jpg',
+            desc: `
+                <p>Pemanfaatan potensi alam di sekitar lingkungan menjadi salah satu cara yang efektif untuk menanamkan kepedulian terhadap lingkungan sekaligus mengembangkan kreativitas anak sejak usia dini. Berangkat dari pemikiran tersebut, Mahasiswa Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN-PPM) Universitas Gadjah Mada Tilik Tulakan Periode II Tahun 2026 Subunit Wonoanti melaksanakan Pelatihan Ecoprint di SD IT Al-Wakil Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan, pada Kamis, 16 Juli 2026. Kegiatan ini mengusung konsep pembelajaran yang memadukan edukasi lingkungan, pengenalan keanekaragaman hayati desa, serta penanaman jiwa kewirausahaan melalui pembuatan tote bag ecoprint berbahan alami.</p>
+                <p>Kegiatan diawali dengan penyampaian materi mengenai ecoprint, yaitu teknik menghias kain menggunakan motif alami dari daun dan bunga dengan memanfaatkan pigmen yang terkandung di dalamnya. Berbeda dengan teknik pewarnaan pada umumnya, ecoprint tidak memerlukan pewarna sintetis sehingga lebih ramah lingkungan. Pada sesi ini, siswa juga diajak mengenal berbagai jenis daun yang tumbuh di sekitar sekolah dan lingkungan Desa Wonoanti. Mahasiswa KKN menjelaskan bahwa setiap daun memiliki bentuk, tekstur, dan kandungan pigmen yang berbeda sehingga mampu menghasilkan motif yang unik pada kain. Melalui pengenalan tersebut, siswa diharapkan semakin mengenal kekayaan hayati di lingkungan sekitar sekaligus memahami bahwa bahan-bahan sederhana yang sering dijumpai sehari-hari dapat diolah menjadi produk yang memiliki nilai seni dan nilai ekonomi.</p>
+                <p>Setelah sesi pengenalan, kegiatan dilanjutkan dengan penjelasan mengenai alat dan bahan yang digunakan dalam praktik ecoprint. Mahasiswa memperkenalkan tote bag berbahan kain katun sebagai media utama, daun-daun segar yang telah dipilih, plastik sebagai pelapis, palu kayu untuk membantu proses perpindahan pigmen daun ke kain, serta beberapa perlengkapan pendukung lainnya. Sebelum praktik dimulai, siswa diberikan arahan mengenai cara memilih daun yang baik, menyusun komposisi motif agar terlihat menarik, serta teknik memukul daun dengan benar agar warna dan bentuknya dapat tercetak secara maksimal tanpa merusak kain.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_ecoprint3.jpg" alt="Foto Bersama Produk Tote Bag Ecoprint" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Foto bersama mahasiswa KKN UGM dan seluruh peserta pelatihan menunjukkan hasil karya tote bag ecoprint.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_ecoprint2.jpg" alt="Siswa Memukul Daun Ecoprint" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Siswa-siswi SD IT Al-Wakil antusias memukul daun-daunan menggunakan palu kayu di atas media kain.</p>
+                    </div>
+                </div>
+
+                <p>Memasuki sesi praktik, setiap siswa diberi kesempatan untuk menuangkan kreativitasnya secara langsung. Daun-daun yang telah dipilih disusun di atas permukaan tote bag sesuai dengan pola yang diinginkan, kemudian ditutup menggunakan plastik sebelum dipukul perlahan menggunakan palu kayu. Suasana kelas pun berlangsung sangat meriah. Para siswa tampak antusias mencoba berbagai bentuk susunan daun dan tidak sedikit yang saling berdiskusi mengenai kombinasi motif yang akan dibuat. Setelah proses pemukulan selesai, daun dilepas secara perlahan sehingga tampak motif alami dengan warna dan bentuk yang berbeda-beda pada setiap tote bag. Hasil karya yang dihasilkan menunjukkan bahwa setiap anak memiliki kreativitas dan imajinasi yang unik.</p>
+                <p>Selain memberikan pengalaman baru dalam bidang seni, pelatihan ini juga menjadi sarana edukasi mengenai pentingnya menjaga kelestarian lingkungan melalui pemanfaatan sumber daya alam secara bijaksana. Mahasiswa KKN menjelaskan bahwa daun yang biasanya hanya dianggap sebagai sampah organik ternyata dapat dimanfaatkan menjadi produk kerajinan yang menarik dan bernilai jual. Melalui tote bag ecoprint, siswa dikenalkan pada konsep green entrepreneurship, yaitu menghasilkan produk kreatif yang ramah lingkungan sekaligus memiliki peluang ekonomi. Dengan demikian, anak-anak tidak hanya belajar membuat kerajinan, tetapi juga mulai memahami bahwa kreativitas dapat menjadi bekal untuk menciptakan peluang usaha di masa depan.</p>
+                <p>Selama kegiatan berlangsung, antusiasme siswa terlihat dari keaktifan mereka dalam bertanya, mencoba berbagai variasi motif, hingga saling menunjukkan hasil karya kepada teman-temannya. Pendekatan belajar melalui praktik langsung membuat materi lebih mudah dipahami sekaligus memberikan pengalaman yang menyenangkan. Kegiatan ini juga menjadi wadah bagi siswa untuk mengenal potensi alam di sekitar mereka dengan cara yang sederhana namun bermakna.</p>
+                <p>Melalui pelatihan ecoprint ini, Tim KKN-PPM UGM Tilik Tulakan berharap siswa SD IT Al-Wakil Wonoanti semakin peduli terhadap lingkungan, mampu memanfaatkan potensi alam di sekitarnya secara kreatif, serta memiliki keberanian untuk mengembangkan ide-ide inovatif yang bernilai ekonomis. Harapannya, keterampilan sederhana yang diperoleh dalam kegiatan ini dapat menjadi langkah awal dalam membentuk generasi muda yang kreatif, cinta lingkungan, dan memiliki jiwa wirausaha sejak dini.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         proker_gamau: {
             tag: 'Kegiatan Proker',
             title: 'Sosialisasi & Praktik Budidaya Rumput Gama Umami',
