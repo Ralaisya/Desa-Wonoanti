@@ -641,6 +641,32 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_kelor: {
+            tag: 'Kegiatan Proker',
+            title: 'Pencegahan Stunting Melalui Olahan Puding Kelor PKK',
+            image: 'assets/images/proker_kelor1.jpg',
+            desc: `
+                <p>Stunting masih menjadi salah satu permasalahan kesehatan yang memerlukan perhatian bersama karena dapat memengaruhi pertumbuhan fisik, perkembangan otak, hingga kualitas hidup anak di masa depan. Selain pemenuhan gizi seimbang, <em>pemanfaatan bahan pangan lokal yang mudah dijumpai di lingkungan sekitar</em> juga menjadi salah satu langkah yang dapat dilakukan untuk <em>mendukung upaya pencegahan stunting.</em> Salah satu tanaman yang memiliki kandungan gizi tinggi adalah <em>daun kelor,</em> yang kaya akan protein, vitamin, mineral, dan antioksidan sehingga berpotensi menjadi sumber pangan bergizi bagi keluarga.</p>
+                <p>Berangkat dari kondisi tersebut, Mahasiswa Kuliah Kerja Nyata Pembelajaran Pemberdayaan Masyarakat (KKN-PPM) Universitas Gadjah Mada Tilik Tulakan Periode II Tahun 2026 Subunit Wonoanti menyelenggarakan <strong>Program Gerakan Gizi Seimbang untuk Anak Sehat dan Bebas Stunting</strong> yang memanfaatkan daun kelor sebagai pangan lokal bergizi. Kegiatan ini dilaksanakan pada <strong>Senin, 20 Juli 2026,</strong> bertempat di Sasono Mulyo, Dusun Krajan, Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan, dan diikuti oleh <strong>ibu-ibu PKK Dusun Krajan.</strong></p>
+                <p>Pada sesi awal, kami menyampaikan materi mengenai stunting, mulai dari pengertian, penyebab, dampak jangka panjang, hingga pentingnya pencegahan sejak dini. Materi juga dilengkapi dengan pemaparan kondisi stunting di Desa Wonoanti berdasarkan hasil wawancara bersama <em>Kader Posyandu Desa Wonoanti.</em> Penyampaian data tersebut diharapkan dapat memberikan gambaran nyata mengenai kondisi di lingkungan sekitar sekaligus meningkatkan kesadaran masyarakat bahwa pencegahan stunting memerlukan keterlibatan berbagai pihak, termasuk keluarga.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_kelor2.png" alt="Proses Blender Daun Kelor" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN mempersiapkan dan melumatkan daun kelor segar menggunakan blender untuk adonan puding.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/proker_kelor3.jpg" alt="Foto Bersama Ibu PKK Dusun Krajan" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Foto bersama KKN UGM dan seluruh peserta rapat PKK Dusun Krajan di depan Balai Sasono Mulyo.</p>
+                    </div>
+                </div>
+
+                <p>Setelah itu, dilanjutkan pada <em>potensi daun kelor</em> sebagai salah satu bahan pangan lokal yang mudah diperoleh dan memiliki kandungan gizi tinggi. Kami menjelaskan berbagai manfaat daun kelor dalam membantu memenuhi kebutuhan nutrisi keluarga serta pentingnya mengolah bahan pangan lokal menjadi menu yang menarik agar lebih mudah diterima, terutama oleh anak-anak.</p>
+                <p>Sebagai bentuk penerapan materi, kegiatan dilanjutkan dengan demonstrasi pembuatan puding daun kelor. Peserta diperlihatkan secara langsung tahapan pembuatannya, mulai dari persiapan bahan, proses pengolahan daun kelor, hingga penyajian puding yang siap dikonsumsi. Demonstrasi ini memberikan gambaran bahwa daun kelor tidak hanya dapat dimasak sebagai sayuran, tetapi juga dapat diolah menjadi camilan sehat dengan cita rasa yang lebih disukai oleh anak. Usai demonstrasi, puding kelor dibagikan kepada seluruh peserta untuk dicicipi.</p>
+                <p>Melalui kegiatan ini, kami berharap pemanfaatan daun kelor tidak hanya berhenti sebagai pengetahuan, tetapi dapat diterapkan dalam kehidupan sehari-hari sebagai bagian dari upaya pemenuhan gizi keluarga. Dengan mengoptimalkan potensi pangan lokal yang tersedia di sekitar, masyarakat diharapkan semakin terdorong untuk berperan aktif dalam pencegahan stunting sekaligus mendukung terwujudnya generasi yang lebih sehat, tumbuh optimal, dan berkualitas.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         proker_gamau: {
             tag: 'Kegiatan Proker',
             title: 'Sosialisasi & Praktik Budidaya Rumput Gama Umami',
