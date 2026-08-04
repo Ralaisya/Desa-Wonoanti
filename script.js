@@ -728,6 +728,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Melalui penyusunan peta ini, Tim KKN-PPM UGM Unit Tilik Tulakan berharap masyarakat dapat lebih mengenali potensi risiko di wilayahnya, mengetahui lokasi titik kumpul dan fasilitas kesehatan, serta berperan aktif dalam upaya mitigasi bencana dengan menjaga kelestarian lingkungan, meningkatkan kewaspadaan, dan mengikuti arahan pemerintah desa maupun instansi terkait. Dengan demikian, Desa Wonoanti diharapkan menjadi desa yang lebih tangguh dan siap menghadapi berbagai potensi bencana.</p>
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Sub Unit Wonoanti</span>'
+        },
+        sepang: {
+            tag: 'Wisata',
+            title: 'Pesona Alam Puncak Gunung Sepang',
+            image: 'assets/images/wisata_sepang.jpg',
+            desc: `
+                <p>Keindahan alam Pacitan, Jawa Timur seolah tidak ada habisnya. Kabupaten yang berjuluk "Seribu Satu Goa" ini juga memiliki tempat yang sangat cocok bagi para pendaki dan pecinta alam bebas, yaitu <strong>Puncak Gunung Sepang</strong> yang berlokasi di Kecamatan Tulakan. Tempat ini menjadi salah satu destinasi favorit untuk mendaki sekaligus berkemah bagi anak-anak muda dan wisatawan domestik.</p>
+                <p>Dari ketinggian puncak Gunung Sepang, panorama alam Pacitan dapat terlihat dengan sangat jelas, mulai dari hamparan perbukitan yang hijau hingga pemandangan indah pantai selatan Kota Pacitan yang memukau di kejauhan. Udara di puncak Gunung Sepang ini juga terkenal sangat sejuk dan segar karena dikelilingi oleh vegetasi hutan yang asri dan terjaga kelestariannya. Hal ini menjadikannya pilihan sempurna bagi para wisatawan yang ingin melepaskan penat dari hiruk-pikuk perkotaan di akhir pekan.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/wisata_sepang2.jpg" alt="Keindahan Panorama Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Pemandangan panorama alam Pacitan yang mempesona dari puncak Gunung Sepang.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
+                        <img src="assets/images/wisata_sepang3.jpg" alt="Suasana Berkemah di Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Udaranya yang sejuk dan areanya yang luas membuat Puncak Gunung Sepang ideal untuk berkemah.</p>
+                    </div>
+                </div>
+
+                <p>Puncak Gunung Sepang memiliki karakteristik dataran puncak yang cukup luas. Hal ini memudahkan para pendaki untuk mendirikan tenda dan berkemah secara berkelompok. Keunikan lain dari Gunung Sepang adalah lokasinya yang secara administratif terbagi menjadi empat wilayah lereng, yaitu Dusun Tembelang di Desa Tulakan, <strong>Dusun Sriten di Desa Wonoanti</strong>, Dusun Gadungan di Desa Padi, dan Dusun Pagerejo di Desa Bungur. Dusun-dusun ini merupakan lembah asri yang mengelilingi kaki gunung.</p>
+                <p>Untuk mencapai puncak, pendaki membutuhkan waktu sekitar 1 hingga 2 jam perjalanan kaki. Dari pusat Kota Pacitan, jarak menuju lereng gunung adalah sekitar 45 kilometer. Akses jalan menuju lereng dapat ditempuh dengan kendaraan roda dua maupun roda empat. Setibanya di titik awal pendakian dekat SDN 1 Tulakan, pendaki harus berjalan kaki sejauh 2 kilometer melewati jalan rabat cor dengan tanjakan yang cukup curam melintasi kawasan hutan asri.</p>
+                <p>Agar perjalanan mendaki Anda tetap aman dan menyenangkan, para pengunjung disarankan untuk merencanakan pendakian saat cuaca cerah dan tidak dalam kondisi turun hujan, mengingat jalur pendakian tanah di kawasan hutan akan menjadi licin. Saat cuaca cerah, pendaki dapat mengabadikan fenomena matahari terbit (sunrise) maupun matahari terbenam (sunset) yang sangat menawan dari atas puncak.</p>
+            `,
+            source: 'Sumber: <a href="https://timesindonesia.co.id/wisata/390923/menikmati-keindahan-alam-pacitan-dari-puncak-gunung-sepang" target="_blank" rel="noopener noreferrer" style="color: #6b7280; text-decoration: underline;">TIMES Indonesia</a>'
         }
     };
 
