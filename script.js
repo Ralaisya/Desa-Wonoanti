@@ -357,9 +357,9 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Wisata Alam & Edukasi Kriya',
             image: 'assets/images/wisata.jpg',
             desc: `
-                <p>Konsep wisata di Desa Wonoanti memadukan keindahan panorama alam perdesaan dengan edukasi kriya anyaman bambu yang interaktif bagi wisatawan.</p>
-                <p>Wisatawan dapat menikmati suasana pedesaan yang sejuk, berjalan menyusuri pematang sawah yang hijau, serta menyusuri keasrian sungai desa yang jernih. Di samping keindahan alamnya, daya tarik utama desa ini adalah paket eduwisata kriya, di mana pengunjung dapat belajar langsung teknik menganyam bambu dari para pengrajin lokal berpengalaman dan membawa pulang hasil karyanya sendiri sebagai buah tangan.</p>
-                <p>Pengembangan desa wisata ini dikelola secara kolaboratif oleh Kelompok Sadar Wisata (Pokdarwis) dan Badan Usaha Milik Desa (BUMDes) demi meningkatkan perekonomian lokal secara berkelanjutan.</p>
+                <p>Sungai di Desa Wonoanti merupakan salah satu unsur alam yang menjadi bagian dari kondisi geografis desa. Aliran sungai ini melewati kawasan yang didominasi oleh bebatuan alami dan pepohonan, sehingga menciptakan pemandangan alam yang masih terjaga. Keberadaan sungai menjadi salah satu potensi sumber daya alam yang dimiliki Desa Wonoanti.</p>
+                <p>Selain berfungsi sebagai bagian dari sistem aliran air, sungai juga berperan dalam mendukung keseimbangan lingkungan di sekitarnya. Kondisi kawasan sungai yang dikelilingi vegetasi dan bebatuan mencerminkan karakter wilayah Desa Wonoanti yang berada di daerah perbukitan. Keberadaan sungai turut menjadi bagian dari lingkungan alam desa yang memiliki nilai ekologis dan dapat dimanfaatkan secara bijaksana oleh masyarakat.</p>
+                <p>Pelestarian kawasan sungai menjadi salah satu upaya untuk menjaga kualitas lingkungan dan keberlanjutan sumber daya alam. Dengan menjaga kebersihan dan kelestarian sungai, diharapkan fungsi serta manfaatnya dapat terus dirasakan oleh masyarakat dan tetap terpelihara untuk generasi yang akan datang.</p>
             `,
             source: ''
         },
