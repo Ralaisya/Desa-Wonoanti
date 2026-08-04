@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pertanian: {
             tag: 'Pertanian',
             title: 'Ketahanan Pangan & Pertanian',
-            image: 'assets/images/pertanian.png',
+            image: 'assets/images/pertanian.jpg',
             desc: `
                 <p>Sebagai salah satu lumbung pangan di wilayah Kecamatan Tulakan, sektor pertanian di Desa Wonoanti merupakan pilar utama ketahanan pangan dan ekonomi warga lokal.</p>
                 <p>Didukung oleh ketersediaan lahan persawahan subur dan sistem irigasi perdesaan yang baik, komoditas utama yang dihasilkan adalah padi sawah premium dengan cita rasa khas. Selain padi, para petani juga membudidayakan jagung hibrida, kedelai, kacang tanah, serta berbagai jenis sayuran organik bebas pestisida.</p>
