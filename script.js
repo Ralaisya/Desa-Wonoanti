@@ -328,6 +328,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Sebagai salah satu lumbung pangan di wilayah Kecamatan Tulakan, sektor pertanian di Desa Wonoanti merupakan pilar utama ketahanan pangan dan ekonomi warga lokal.</p>
                 <p>Didukung oleh ketersediaan lahan persawahan subur dan sistem irigasi perdesaan yang baik, komoditas utama yang dihasilkan adalah padi sawah premium dengan cita rasa khas. Selain padi, para petani juga membudidayakan jagung hibrida, kedelai, kacang tanah, serta berbagai jenis sayuran organik bebas pestisida.</p>
                 <p>Pemerintah Desa Wonoanti secara konsisten mendukung para petani melalui pembinaan kelompok tani, penyaluran bantuan pupuk bersubsidi, dan perbaikan infrastruktur jalan usaha tani guna mempermudah pengangkutan hasil panen.</p>
+                
+                <h4 style="font-size: 1.1rem; font-weight: 600; color: #1b4332; margin-top: 1.8rem; margin-bottom: 0.8rem; border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;">Peta Potensi Pertanian Pangan Tiap Dusun</h4>
+                <p>Sektor pertanian pangan sebagai penyokong utama kebutuhan dasar warga Desa Wonoanti tersebar di beberapa wilayah dusun dengan karakteristik komoditas masing-masing:</p>
+                <ul style="padding-left: 1.25rem; margin-bottom: 1rem; line-height: 1.6; list-style-type: disc;">
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Duren:</strong> Menjadi salah satu lumbung pangan utama desa, sektor pertanian di sini didominasi oleh tanaman padi sawah, ketela pohon (singkong) sebagai sumber karbohidrat alternatif, serta berbagai tanaman palawija pendukung.</li>
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Krajan:</strong> Didukung lahan basah yang subur, dusun ini aktif memproduksi padi sawah berkualitas tinggi, ketela pohon, serta pengembangan budidaya jamur konsumsi sebagai diversifikasi pangan lokal.</li>
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Ngunut:</strong> Selain perkebunan, warga dusun ini aktif mengusahakan pertanian tanaman pangan basah seperti padi sawah musiman dan budidaya ubi jalar yang subur.</li>
+                </ul>
             `,
             source: ''
         },
@@ -384,12 +392,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Sebagian besar tanaman kakao ditanam secara mandiri oleh warga di pekarangan rumah mereka dengan total luas pekarangan mencapai sekitar 15 hektar. Tanaman kakao di Desa Wonoanti sangat istimewa karena bersifat non-musiman dan dapat terus berbuah sepanjang tahun tanpa kenal musim.</p>
                 <p>Setiap bulannya, hasil panen biji kakao kering dari para petani mampu mencapai 2 ton. Penjualan biji kakao kering ini dipasarkan kepada pengepul lokal dengan nilai ekonomis yang tinggi, di mana harga biji kakao kering berkualitas dapat mencapai Rp100.000 hingga Rp120.000 per kilogram, menjadikannya salah satu pilar penyokong kesejahteraan ekonomi warga desa Wonoanti.</p>
                 
-                <h4 style="font-size: 1.1rem; font-weight: 600; color: #1b4332; margin-top: 1.8rem; margin-bottom: 0.8rem; border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;">Potensi Komoditas Pertanian & Perkebunan Tiap Dusun</h4>
-                <p>Selain perkebunan kakao unggulan, wilayah perbukitan Desa Wonoanti juga menghasilkan keragaman komoditas pertanian dan perkebunan utama yang tersebar di beberapa dusun:</p>
+                <h4 style="font-size: 1.1rem; font-weight: 600; color: #1b4332; margin-top: 1.8rem; margin-bottom: 0.8rem; border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;">Potensi Komoditas Perkebunan Tiap Dusun</h4>
+                <p>Selain perkebunan kakao unggulan, wilayah perbukitan Desa Wonoanti juga menghasilkan keragaman komoditas perkebunan utama yang tersebar di beberapa dusun:</p>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1rem; line-height: 1.6; list-style-type: disc;">
-                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Duren:</strong> Komoditas pertanian didominasi oleh penanaman padi, ketela pohon (singkong), serta tanaman palawija pendukung.</li>
-                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Krajan:</strong> Menghasilkan komoditas utama berupa padi, biji kopi lokal, ketela pohon, jamur, serta perkebunan kelapa (pohon kelapa) sebagai bahan baku pembuatan gula kelapa.</li>
-                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Ngunut:</strong> Komoditas perkebunan dan pertanian yang banyak diusahakan masyarakat meliputi penanaman padi, perkebunan kakao, budidaya ubi jalar, serta tanaman kayu keras bernilai ekonomi tinggi.</li>
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Krajan:</strong> Menghasilkan komoditas utama berupa biji kopi lokal serta kelapa murni yang melimpah sebagai bahan baku pembuatan gula kelapa.</li>
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Ngunut:</strong> Komoditas perkebunan utama meliputi perkebunan kakao produktif serta tanaman kayu keras bernilai ekonomi tinggi.</li>
                     <li style="margin-bottom: 0.75rem;"><strong>Dusun Pojok:</strong> Didukung oleh keberadaan ribuan pohon kelapa produktif, dengan sekitar 70% masyarakat yang bekerja sebagai penderes air nira kelapa secara harian untuk pembuatan gula jawa.</li>
                 </ul>
             `,
