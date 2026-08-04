@@ -334,16 +334,28 @@ document.addEventListener('DOMContentLoaded', () => {
         umkm: {
             tag: 'UMKM',
             title: 'UMKM Unggulan & Kopi Jangkar Emas',
-            image: 'assets/images/umkm.png',
+            image: 'assets/images/umkm_kopi_cover.png',
             desc: `
                 <p>Kopi Jangkar Emas merupakan salah satu UMKM pengolahan kopi lokal yang berdiri sejak September 2025 di sekitar Desa Wonoanti. Usaha ini hadir dengan tujuan memberikan nilai tambah pada hasil panen kopi masyarakat Pacitan melalui proses pengolahan menjadi kopi berkualitas yang siap dipasarkan. Bahan baku kopi diperoleh dari petani kopi di berbagai wilayah Kabupaten Pacitan dengan menerapkan standar pemilihan buah kopi yang baik. Saat ini produk utama yang dipasarkan berupa kopi bubuk, sementara ke depan usaha ini berencana memperluas penjualan kopi dalam bentuk biji (whole bean) untuk memenuhi kebutuhan pasar dan kedai kopi.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/umkm_kopi_beans.png" alt="Biji Kopi Pilihan Kopi Jangkar Emas" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Biji kopi pilihan Pacitan yang disortir secara manual.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/umkm_kopi_roaster.png" alt="Mesin Roasting Kopi Jangkar Emas" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Proses penyangraian (roasting) modern dengan mesin standar industri.</p>
+                    </div>
+                </div>
+
                 <p>Pemasaran dilakukan melalui penitipan produk di berbagai toko seperti toko oleh-oleh dan penggunaan media sosial sebagai katalis pemasaran nantinya, dengan disusul rencana pengembangan penjualan melalui website dan siaran langsung (live selling). Kopi Jangkar Emas juga telah memiliki mitra di beberapa wilayah di Pacitan dan sudah pernah juga menjalin kerja sama dengan mitra dari luar daerah. Selain berorientasi pada kualitas produk, Kopi Jangkar Emas memiliki komitmen untuk memberdayakan masyarakat sekitar melalui rencana penyerapan tenaga kerja lokal dan pengembangan potensi kopi Desa Wonoanti. Dengan memanfaatkan kekayaan sumber daya kopi Pacitan, UMKM ini diharapkan dapat menjadi salah satu ikon produk unggulan yang mampu memperkenalkan cita rasa kopi lokal Pacitan kepada pasar yang lebih luas.</p>
                 
                 <h4 style="font-size: 1.1rem; font-weight: 600; color: #1b4332; margin-top: 1.8rem; margin-bottom: 0.8rem; border-bottom: 2px solid #e9ecef; padding-bottom: 0.5rem;">Potensi Komoditas & Usaha Rumahan Tiap Dusun</h4>
                 <p>Selain industri pengolahan kopi, Desa Wonoanti memiliki keragaman potensi komoditas pertanian dan usaha mikro rumahan (UMKM) yang tersebar di enam wilayah dusun sebagai pilar ekonomi pendukung:</p>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1rem; line-height: 1.6; list-style-type: disc;">
                     <li style="margin-bottom: 0.75rem;"><strong>Dusun Duren:</strong> Sektor pertanian didominasi oleh tanaman padi, ketela, dan palawija. Di bidang usaha rumahan, berkembang pembuatan tempe, rengginang gurih, permen tape (musiman), kecap manis tradisional, jamu tradisional berkhasiat, serta pembuatan kerajinan sangkar ayam berdasarkan pesanan khusus (custom order).</li>
-                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Krajan:</strong> Sektor pertanian menghasilkan komoditas utama berupa padi, kopi, ketela, jamur konsumsi, dan nira kelapa (gula kelapa). Di bidang UMKM, warganya memproduksi gula jawa asli, budidaya jamur konsumsi segar, keripik pisang renyah, kue gapit khas daerah yang manis-gurih, serta pengolahan biji kopi lokal siap konsumsi.</li>
+                    <li style="margin-bottom: 0.75rem;"><strong>Dusun Krajan:</strong> Sektor pertanian menghasilkan komoditas utama berupa padi, kopi, ketela, jamur konsumsi, and nira kelapa (gula kelapa). Di bidang UMKM, warganya memproduksi gula jawa asli, budidaya jamur konsumsi segar, keripik pisang renyah, kue gapit khas daerah yang manis-gurih, serta pengolahan biji kopi lokal siap konsumsi.</li>
                     <li style="margin-bottom: 0.75rem;"><strong>Dusun Sriten:</strong> Usaha rumahan yang tumbuh aktif meliputi pembuatan rengginang kering siap goreng, aneka keripik renyah, tempe higienis, serta berbagai produk kerajinan tangan sederhana yang dipasarkan secara lokal melalui pedagang dan pengepul desa.</li>
                     <li style="margin-bottom: 0.75rem;"><strong>Dusun Ngunut:</strong> Komoditas pertanian andalan meliputi tanaman padi, perkebunan kakao, tanaman kayu keras bernilai ekonomi, dan ubi jalar. Di samping itu, usaha rumahan yang aktif dijalankan masyarakat meliputi produksi tempe, jamu herbal tradisional, dan produksi gula merah kelapa murni.</li>
                     <li style="margin-bottom: 0.75rem;"><strong>Dusun Bulih:</strong> Sangat dikenal luas sebagai salah satu sentra utama penghasil gula jawa tradisional berkualitas di Desa Wonoanti. Selain memproduksi gula jawa, masyarakat setempat juga mengembangkan berbagai usaha makanan olahan rumahan seperti produksi kue kolong-kolong tradisional yang renyah serta warung kelontong pemenuhan kebutuhan warga.</li>
