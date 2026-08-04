@@ -754,6 +754,35 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_kandang: {
+            tag: 'Program Kerja',
+            title: 'Pembuatan Kandang Ayam Kastari Lestari: Kandang Ramah Lingkungan dengan Menerapkan Konsep Integrasi Manajemen Lingkungan',
+            image: 'assets/images/proker_kandang2.jpg',
+            desc: `
+                <p>Sektor peternakan unggas memiliki potensi besar dalam meningkatkan ketahanan pangan dan perekonomian masyarakat desa. Namun, pengelolaan kandang yang kurang baik sering kali menimbulkan berbagai permasalahan lingkungan, seperti penumpukan limbah, bau tidak sedap, pencemaran air, serta rendahnya efisiensi pemanfaatan sumber daya. Oleh karena itu, diperlukan penerapan sistem peternakan yang ramah lingkungan melalui konsep integrasi manajemen lingkungan agar kegiatan peternakan dapat berjalan secara produktif sekaligus berkelanjutan.</p>
+                <p>Sebagai upaya mendukung pengembangan peternakan berkelanjutan pada tanggal 28 Juli 2026, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan melaksanakan program Pembuatan Kandang Ayam Kastari Lestari (Kandang Ramah Lingkungan dengan Menerapkan Konsep Integrasi Manajemen Lingkungan) di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan. Program ini dilaksanakan bersama pemerintah desa dan masyarakat sebagai bentuk penguatan sarana peternakan yang tidak hanya berfungsi sebagai tempat pemeliharaan ayam, tetapi juga menjadi contoh penerapan kandang yang memperhatikan aspek kebersihan, kesehatan ternak, dan kelestarian lingkungan.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/proker_kandang1.jpg" alt="Mahasiswa KKN UGM di dalam Kandang Ayam Kastari" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN UGM berfoto di dalam konstruksi Kandang Ayam Kastari.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/proker_kandang3.jpg" alt="Proses Pengerjaan Kandang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Gotong royong mahasiswa dan warga merakit ram kawat kandang.</p>
+                    </div>
+                </div>
+
+                <p>Kegiatan diawali dengan proses perencanaan lokasi dan desain kandang berdasarkan kondisi lahan yang tersedia. Mahasiswa KKN bersama masyarakat melakukan survei lokasi untuk menentukan area yang memiliki sirkulasi udara baik, memperoleh pencahayaan matahari yang cukup, memiliki sistem drainase yang memadai, serta berada pada jarak aman dari permukiman warga. Tahap ini bertujuan untuk meminimalkan risiko genangan air, penyebaran penyakit, dan pencemaran lingkungan akibat aktivitas peternakan.</p>
+                <p>Selanjutnya dilakukan pembangunan kandang menggunakan material yang mudah diperoleh di lingkungan sekitar, seperti rangka kayu, bambu, kawat ram, dan atap ringan yang mampu memberikan perlindungan terhadap panas maupun hujan. Kandang dirancang dengan sistem ventilasi terbuka sehingga pertukaran udara berlangsung optimal dan kelembapan kandang dapat terjaga. Selain itu, lantai kandang dibuat lebih tinggi dari permukaan tanah untuk mencegah kelembapan berlebih sekaligus mempermudah proses pembersihan kotoran.</p>
+                <p>Sebagai implementasi konsep integrasi manajemen lingkungan, kandang dilengkapi dengan sistem pengelolaan limbah sederhana. Kotoran ayam dikumpulkan secara berkala untuk dimanfaatkan sebagai bahan baku pupuk organik yang dapat diaplikasikan pada lahan pertanian masyarakat. Sementara itu, sisa pakan dan limbah organik lainnya dipisahkan agar tidak menimbulkan bau maupun mengundang hama. Pendekatan ini diharapkan mampu mengurangi pencemaran lingkungan sekaligus meningkatkan nilai ekonomi dari limbah peternakan.</p>
+                <p>Setelah pembangunan selesai, mahasiswa KKN memberikan edukasi kepada masyarakat mengenai tata cara pemeliharaan kandang yang baik. Materi yang disampaikan meliputi pentingnya menjaga kebersihan kandang, pengaturan kepadatan ayam, penyediaan pakan and air minum yang higienis, pengendalian hama dan penyakit, serta jadwal pembersihan kandang secara rutin. Masyarakat juga diberikan pemahaman mengenai pentingnya biosekuriti sederhana, seperti membatasi akses keluar masuk kandang dan melakukan sanitasi peralatan peternakan secara berkala.</p>
+                <p>Untuk mendukung keberlanjutan program, dilakukan pula pendampingan mengenai pemanfaatan hasil samping peternakan sebagai bagian dari ekonomi sirkular desa. Kotoran ayam yang telah diolah menjadi pupuk organik diharapkan dapat dimanfaatkan untuk meningkatkan produktivitas tanaman pangan, tanaman hortikultura, maupun tanaman obat keluarga di Desa Wonoanti sehingga tercipta hubungan yang saling mendukung antara sektor peternakan dan pertanian.</p>
+                <p>Seluruh rangkaian kegiatan berlangsung dengan baik berkat partisipasi aktif masyarakat. Warga bersama mahasiswa bergotong royong dalam proses pembangunan kandang, mulai dari persiapan material, perakitan konstruksi, hingga penataan lingkungan sekitar kandang. Antusiasme masyarakat menunjukkan adanya kesadaran yang semakin meningkat mengenai pentingnya pengelolaan peternakan yang ramah lingkungan dan berorientasi pada keberlanjutan.</p>
+                <p>Melalui program Pembuatan Kandang Ayam Kastari Lestari, Tim KKN-PPM UGM Unit Tilik Tulakan berharap masyarakat Desa Wonoanti dapat menerapkan sistem peternakan yang lebih sehat, bersih, dan efisien. Penerapan konsep integrasi manajemen lingkungan diharapkan mampu meningkatkan produktivitas peternakan, mengurangi dampak negatif terhadap lingkungan, serta mendorong terbentuknya sistem peternakan berbasis ekonomi sirkular yang berkelanjutan dan memberikan manfaat jangka panjang bagi masyarakat desa.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
