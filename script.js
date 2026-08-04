@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
         wisata: {
             tag: 'Wisata',
             title: 'Wisata Alam & Edukasi Kriya',
-            image: 'assets/images/wisata.png',
+            image: 'assets/images/wisata.jpg',
             desc: `
                 <p>Konsep wisata di Desa Wonoanti memadukan keindahan panorama alam perdesaan dengan edukasi kriya anyaman bambu yang interaktif bagi wisatawan.</p>
                 <p>Wisatawan dapat menikmati suasana pedesaan yang sejuk, berjalan menyusuri pematang sawah yang hijau, serta menyusuri keasrian sungai desa yang jernih. Di samping keindahan alamnya, daya tarik utama desa ini adalah paket eduwisata kriya, di mana pengunjung dapat belajar langsung teknik menganyam bambu dari para pengrajin lokal berpengalaman dan membawa pulang hasil karyanya sendiri sebagai buah tangan.</p>
