@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         wisata: {
             tag: 'Wisata',
-            title: 'Wisata Alam & Edukasi Kriya',
+            title: 'Wisata Sungai Alami',
             image: 'assets/images/wisata.jpg',
             desc: `
                 <p>Sungai di Desa Wonoanti merupakan salah satu unsur alam yang menjadi bagian dari kondisi geografis desa. Aliran sungai ini melewati kawasan yang didominasi oleh bebatuan alami dan pepohonan, sehingga menciptakan pemandangan alam yang masih terjaga. Keberadaan sungai menjadi salah satu potensi sumber daya alam yang dimiliki Desa Wonoanti.</p>
