@@ -301,7 +301,7 @@
                 </div>
                 
                          <!-- Organization Structure Tree -->
-                <div class="structure-wrapper reveal-slide-up" style="animation-delay: 0.1s;">
+                <div class="structure-wrapper org-structure-container reveal-slide-up" style="animation-delay: 0.1s;">
                     <h3 class="structure-title text-center">Struktur Jajaran Perangkat Desa</h3>
                     
                     <div class="org-container">
@@ -310,13 +310,13 @@
                             <div class="org-top-row-container">
                                 <div class="org-top-layout">
                                     <!-- BPD (Left) -->
-                                    <div class="org-node-card org-side-card">
+                                    <div class="org-node-card" data-tooltip="Desa Wonoanti&#10;BPD&#10;Badan Permusyawaratan Desa">
                                         <div class="org-node-role">BPD</div>
                                         <div class="org-node-name">Badan Permusyawaratan Desa</div>
                                     </div>
                                     
                                     <!-- Kades (Center) -->
-                                    <div class="org-node-card org-kades-card">
+                                    <div class="org-node-card org-primary-card org-card-with-avatar" data-tooltip="Desa Wonoanti&#10;Yudi Sutarta&#10;Kepala Desa">
                                         <div class="org-avatar-circle">
                                             <img src="assets/images/kades.png" alt="Yudi Sutarta">
                                         </div>
@@ -327,7 +327,7 @@
                                     </div>
 
                                     <!-- LPM (Right) -->
-                                    <div class="org-node-card org-side-card">
+                                    <div class="org-node-card" data-tooltip="Desa Wonoanti&#10;LPM&#10;Lembaga Pemberdayaan Masyarakat">
                                         <div class="org-node-role">LPM</div>
                                         <div class="org-node-name">Lembaga Pemberdayaan Masyarakat</div>
                                     </div>
@@ -338,7 +338,7 @@
                             <ul>
                                 <li>
                                     <!-- Sekdes -->
-                                    <div class="org-node-card org-sekdes-card">
+                                    <div class="org-node-card org-primary-card org-card-with-avatar" data-tooltip="Desa Wonoanti&#10;Bogianto&#10;Sekretaris Desa">
                                         <div class="org-avatar-circle">
                                             <i data-lucide="user"></i>
                                         </div>
@@ -351,31 +351,31 @@
                                     <!-- connected Kaurs and Kasis -->
                                     <ul>
                                         <li>
-                                            <div class="org-node-card org-kaur-kasi-card">
+                                            <div class="org-node-card org-kaur-kasi-card" data-tooltip="Desa Wonoanti&#10;Eko Yulianto&#10;Kaur Keuangan">
                                                 <div class="org-node-role">Kaur Keuangan</div>
                                                 <div class="org-node-name">Eko Yulianto</div>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="org-node-card org-kaur-kasi-card">
+                                            <div class="org-node-card org-kaur-kasi-card" data-tooltip="Desa Wonoanti&#10;Joko Suwarno&#10;Kaur Perencanaan">
                                                 <div class="org-node-role">Kaur Perencanaan</div>
                                                 <div class="org-node-name">Joko Suwarno</div>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="org-node-card org-kaur-kasi-card">
+                                            <div class="org-node-card org-kaur-kasi-card" data-tooltip="Desa Wonoanti&#10;Suryanto&#10;Kasi Pemerintahan">
                                                 <div class="org-node-role">Kasi Pemerintahan</div>
                                                 <div class="org-node-name">Suryanto</div>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="org-node-card org-kaur-kasi-card">
+                                            <div class="org-node-card org-kaur-kasi-card" data-tooltip="Desa Wonoanti&#10;Gunarto&#10;Kasi Pelayanan">
                                                 <div class="org-node-role">Kasi Pelayanan</div>
                                                 <div class="org-node-name">Gunarto</div>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="org-node-card org-kaur-kasi-card">
+                                            <div class="org-node-card org-kaur-kasi-card" data-tooltip="Desa Wonoanti&#10;Joko Tri Cahyono&#10;Kasi Kesejahteraan">
                                                 <div class="org-node-role">Kasi Kesejahteraan</div>
                                                 <div class="org-node-name">Joko Tri Cahyono</div>
                                             </div>
@@ -389,42 +389,42 @@
                     <!-- Level 4: Jajaran Kepala Dusun (KASUN) -->
                     <div class="org-group-title" style="margin-top: 50px;">Kepala Dusun (KASUN)</div>
                     <div class="org-subgrid-dusun" style="margin-top: 20px;">
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Tumar&#10;Kasun Krajan">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Krajan</div>
                                 <div class="org-name">Tumar</div>
                             </div>
                         </div>
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Handoyo&#10;Kasun Pojok">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Pojok</div>
                                 <div class="org-name">Handoyo</div>
                             </div>
                         </div>
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Sunari&#10;Kasun Sriten">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Sriten</div>
                                 <div class="org-name">Sunari</div>
                             </div>
                         </div>
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Aan&#10;Kasun Bulih">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Bulih</div>
                                 <div class="org-name">Aan</div>
                             </div>
                         </div>
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Miswanto&#10;Kasun Duren">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Duren</div>
                                 <div class="org-name">Miswanto</div>
                             </div>
                         </div>
-                        <div class="org-card-dusun">
+                        <div class="org-card-dusun" data-tooltip="Desa Wonoanti&#10;Triyono&#10;Kasun Ngunut">
                             <div class="dusun-icon"><i data-lucide="map-pin"></i></div>
                             <div>
                                 <div class="org-role">Kasun Ngunut</div>
