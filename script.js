@@ -783,6 +783,34 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_voli_pphbn: {
+            tag: 'Program Kerja',
+            title: 'PPHBN Bola Voli Desa Wonoanti Tahun 2026',
+            image: 'assets/images/proker_voli_pphbn2.jpg',
+            desc: `
+                <p>Panitia Peringatan Hari Besar Nasional (PPHBN) merupakan wadah koordinasi masyarakat dalam merencanakan dan melaksanakan berbagai kegiatan untuk memperingati Hari Ulang Tahun ke-81 Kemerdekaan Republik Indonesia. Melalui kepanitiaan yang terorganisasi, seluruh rangkaian kegiatan dapat berjalan dengan tertib, aman, dan melibatkan partisipasi aktif masyarakat. Selain menjadi momentum mengenang jasa para pahlawan, peringatan kemerdekaan juga menjadi sarana memperkuat persatuan, semangat gotong royong, dan kebersamaan antarwarga.</p>
+                <p>Sebagai bentuk dukungan terhadap penyelenggaraan peringatan Hari Kemerdekaan Republik Indonesia, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan turut berpartisipasi sebagai bagian dari Panitia Peringatan Hari Besar Nasional (PPHBN) Desa Wonoanti Tahun 2026 di Desa Wonoanti, Kecamatan Tulakan, Kabupaten Pacitan dari tanggal 29 Juli hingga 1 Agustus 2026. Mahasiswa KKN berkolaborasi dengan Pemerintah Desa, Karang Taruna, serta tokoh masyarakat dalam membantu perencanaan, koordinasi, hingga pelaksanaan seluruh rangkaian kegiatan peringatan HUT RI.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/proker_voli_pphbn1.jpg" alt="Foto Bersama Tim Bola Voli Desa Wonoanti" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Foto bersama tim bola voli putra dan putri Desa Wonoanti beserta trofi juara.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/proker_voli_pphbn3.jpg" alt="Penyerahan Piala Turnamen Voli" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Prosesi penyerahan trofi piala turnamen bola voli PPHBN 2026.</p>
+                    </div>
+                </div>
+
+                <p>Kegiatan diawali dengan mengikuti rapat koordinasi bersama Pemerintah Desa dan panitia untuk menyusun susunan kepanitiaan, jadwal kegiatan, pembagian tugas, serta kebutuhan sarana dan prasarana. Berbagai agenda yang direncanakan meliputi kerja bakti lingkungan, pemasangan atribut kemerdekaan, perlombaan masyarakat, turnamen bola voli, malam tirakatan, hingga pelaksanaan upacara peringatan Hari Kemerdekaan. Mahasiswa KKN turut memberikan masukan dalam penyusunan jadwal kegiatan agar seluruh rangkaian acara dapat terlaksana secara efektif dan melibatkan seluruh lapisan masyarakat.</p>
+                <p>Selanjutnya, mahasiswa bersama panitia melaksanakan berbagai persiapan teknis, seperti membantu pemasangan bendera Merah Putih, umbul-umbul, dan dekorasi lingkungan desa, menyiapkan perlengkapan perlombaan, melakukan penataan lapangan kegiatan, serta mendukung kebutuhan administrasi kepanitiaan. Selain itu, mahasiswa juga membantu publikasi kegiatan kepada masyarakat sehingga informasi mengenai jadwal dan pelaksanaan acara dapat tersampaikan dengan baik.</p>
+                <p>Selama rangkaian kegiatan berlangsung, mahasiswa KKN berperan aktif sebagai panitia pelaksana pada berbagai agenda PPHBN. Tugas yang dilakukan meliputi registrasi peserta, koordinasi jalannya perlombaan, pendampingan wasit dan juri, dokumentasi kegiatan, pengaturan perlengkapan acara, serta membantu menjaga ketertiban dan kelancaran pelaksanaan kegiatan. Kolaborasi yang baik antara panitia dan masyarakat menjadi faktor penting dalam menciptakan suasana peringatan yang meriah, tertib, dan penuh semangat kebersamaan.</p>
+                <p>Selain mendukung aspek teknis penyelenggaraan, mahasiswa juga berpartisipasi dalam menumbuhkan semangat gotong royong melalui keterlibatan langsung bersama masyarakat pada setiap tahapan kegiatan. Kehadiran mahasiswa tidak hanya membantu meringankan pekerjaan panitia, tetapi juga mempererat hubungan antara perguruan tinggi dengan masyarakat Desa Wonoanti melalui kerja sama yang harmonis dan saling mendukung.</p>
+                <p>Seluruh rangkaian kegiatan PPHBN Desa Wonoanti Tahun 2026 berlangsung dengan lancar dan mendapat antusiasme tinggi dari masyarakat. Tingginya partisipasi warga dalam setiap kegiatan menunjukkan kuatnya semangat nasionalisme, kebersamaan, dan kepedulian masyarakat terhadap peringatan Hari Kemerdekaan Republik Indonesia.</p>
+                <p>Melalui keterlibatan dalam Panitia Peringatan Hari Besar Nasional (PPHBN) Desa Wonoanti Tahun 2026, Tim KKN-PPM UGM Unit Tilik Tulakan berharap sinergi antara mahasiswa, pemerintah desa, dan masyarakat dapat terus terjalin dalam berbagai kegiatan pembangunan desa. Semangat gotong royong, nasionalisme, dan partisipasi masyarakat yang tumbuh selama kegiatan diharapkan menjadi modal sosial yang mampu mendukung kemajuan Desa Wonoanti secara berkelanjutan.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
