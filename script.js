@@ -849,6 +849,30 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        kegiatan_pengajian: {
+            tag: 'Kegiatan Warga',
+            title: 'Pengajian Rutin Ibu-ibu Dusun Krajan',
+            image: 'assets/images/kegiatan_pengajian_voli1.jpg',
+            desc: `
+                <p>Pengajian rutin ibu-ibu merupakan salah satu kegiatan keagamaan yang secara konsisten dilaksanakan oleh masyarakat Dusun Krajan sebagai sarana mempererat tali silaturahmi sekaligus meningkatkan keimanan dan ketakwaan. Pada malam Jumat, 25 Juni 2026, Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan turut berpartisipasi dalam kegiatan pengajian rutin yang diselenggarakan oleh ibu-ibu di dusun tersebut.</p>
+                
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/kegiatan_pengajian_voli2.jpg" alt="Suasana Pengajian Jamaah Putri" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN UGM berbaur khidmat bersama jamaah pengajian.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; max-width: 320px; text-align: center;">
+                        <img src="assets/images/kegiatan_pengajian_voli3.jpg" alt="Ibu-ibu Jamaah Pengajian Dusun Krajan" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Ibu-ibu Dusun Krajan membacakan Yasin dan doa bersama.</p>
+                    </div>
+                </div>
+
+                <p>Kegiatan diawali dengan pembacaan Surat Yasin yang diikuti secara khidmat oleh seluruh jamaah. Suasana pengajian berlangsung dengan penuh kekhusyukan, diiringi doa bersama sebagai bentuk ikhtiar memohon keberkahan, kesehatan, dan keselamatan bagi seluruh masyarakat. Kehadiran mahasiswa KKN dalam kegiatan ini disambut dengan hangat oleh warga, sehingga tercipta suasana yang akrab dan penuh kebersamaan.</p>
+                <p>Selain sebagai kegiatan ibadah, pengajian rutin ini juga menjadi wadah bagi masyarakat untuk mempererat hubungan sosial serta memperkuat nilai-nilai kebersamaan dalam kehidupan bermasyarakat. Partisipasi Tim KKN dalam kegiatan tersebut merupakan bentuk penghormatan terhadap tradisi dan budaya lokal sekaligus upaya membangun kedekatan dengan masyarakat melalui keterlibatan dalam kegiatan kemasyarakatan.</p>
+                <p>Melalui keikutsertaan dalam pengajian rutin ini, diharapkan hubungan yang harmonis antara mahasiswa KKN and masyarakat Dusun Krajan dapat terus terjalin dengan baik. Kegiatan ini juga menjadi pengalaman yang berkesan bagi mahasiswa dalam memahami kehidupan sosial dan budaya masyarakat desa, serta menumbuhkan semangat kebersamaan, toleransi, dan kepedulian selama pelaksanaan KKN.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
