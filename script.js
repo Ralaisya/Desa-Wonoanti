@@ -811,6 +811,25 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_kerja_bakti_voli: {
+            tag: 'Program Kerja',
+            title: 'Kerja Bakti Lapangan Voli Dusun Pojok',
+            image: 'assets/images/proker_kerja_bakti_voli1.jpg',
+            desc: `
+                <p>Dalam rangka menyambut rangkaian kegiatan Panitia Pelaksanaan Hari Besar Nasional (PPHBN) Hari Kemerdekaan Republik Indonesia ke-81, masyarakat Dusun Pojok melaksanakan kegiatan kerja bakti bersama pada tanggal 26 Juli 2026. Kegiatan ini diikuti oleh warga setempat bersama Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan sebagai bentuk dukungan terhadap persiapan penyelenggaraan turnamen bola voli yang akan dilaksanakan di dusun tersebut.</p>
+                
+                <div style="text-align: center; margin: 1.5rem 0;">
+                    <img src="assets/images/proker_kerja_bakti_voli2.jpg" alt="Mahasiswa KKN dan Warga Bergotong Royong Membersihkan Lapangan Voli" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); display: inline-block;">
+                    <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN bersama warga bergotong royong membersihkan area sekitar lapangan voli.</p>
+                </div>
+
+                <p>Kegiatan diawali dengan membersihkan area lapangan voli beserta lingkungan di sekitarnya. Mahasiswa KKN dan masyarakat bergotong royong menyapu lapangan, memangkas rumput liar, mengumpulkan sampah, serta merapikan fasilitas pendukung agar lokasi pertandingan menjadi bersih, aman, dan nyaman digunakan. Antusiasme warga terlihat sejak pagi, mencerminkan semangat kebersamaan dalam menyambut peringatan Hari Kemerdekaan.</p>
+                <p>Selain membersihkan lapangan, peserta kerja bakti juga melakukan penataan lingkungan sekitar sebagai bagian dari persiapan pelaksanaan turnamen bola voli. Berbagai pekerjaan dilakukan secara bersama-sama, mulai dari membersihkan akses menuju lapangan hingga memastikan area pertandingan siap digunakan. Kegiatan ini menjadi wujud nyata budaya gotong royong yang masih terjaga di tengah masyarakat.</p>
+                <p>Melalui kegiatan kerja bakti ini, diharapkan pelaksanaan turnamen bola voli dalam rangka PPHBN Hari Kemerdekaan Republik Indonesia ke-81 dapat berlangsung dengan lancar dan memberikan kenyamanan bagi seluruh peserta maupun masyarakat yang hadir. Di samping itu, kegiatan ini juga memperkuat rasa kebersamaan, kepedulian terhadap lingkungan, serta semangat persatuan yang menjadi nilai penting dalam peringatan Hari Kemerdekaan.</p>
+                <p>Partisipasi Tim KKN-PPM UGM dalam kegiatan ini merupakan bentuk dukungan terhadap kegiatan kemasyarakatan sekaligus upaya mempererat hubungan antara mahasiswa dan warga. Semangat kolaborasi yang terjalin selama kerja bakti diharapkan dapat terus dipertahankan sebagai modal dalam membangun lingkungan desa yang bersih, nyaman, dan penuh rasa kebersamaan.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
