@@ -812,7 +812,7 @@ document.addEventListener('DOMContentLoaded', () => {
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
         proker_kerja_bakti_voli: {
-            tag: 'Program Kerja',
+            tag: 'Kegiatan Warga',
             title: 'Kerja Bakti Lapangan Voli Dusun Pojok',
             image: 'assets/images/proker_kerja_bakti_voli1.jpg',
             desc: `
