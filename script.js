@@ -830,6 +830,25 @@ document.addEventListener('DOMContentLoaded', () => {
             `,
             source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
         },
+        proker_umbul_umbul: {
+            tag: 'Kegiatan Warga',
+            title: 'Pemasangan Umbul-Umbul Dusun Krajan',
+            image: 'assets/images/proker_umbul_umbul1.png',
+            desc: `
+                <p>Dalam rangka menyemarakkan peringatan Hari Kemerdekaan Republik Indonesia ke-81, masyarakat Dusun Krajan melaksanakan kegiatan kerja bakti pemasangan umbul-umbul pada tanggal 31 Juli 2026. Kegiatan ini diikuti oleh warga setempat dengan partisipasi Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan sebagai bentuk dukungan terhadap rangkaian peringatan Hari Kemerdekaan di lingkungan dusun.</p>
+                
+                <div style="text-align: center; margin: 1.5rem 0;">
+                    <img src="assets/images/proker_umbul_umbul2.png" alt="Proses Mengikat Bendera Umbul-umbul pada Bambu" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); display: inline-block;">
+                    <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN UGM bersama warga bahu-membahu merakit dan mengikat bendera umbul-umbul.</p>
+                </div>
+
+                <p>Kegiatan diawali dengan persiapan perlengkapan serta pembagian titik pemasangan umbul-umbul di sepanjang jalan utama dan beberapa lokasi strategis di Dusun Krajan. Mahasiswa KKN bersama warga bergotong royong memasang umbul-umbul, menyiapkan tiang penyangga, serta memastikan setiap umbul-umbul terpasang dengan baik dan aman. Suasana kerja bakti berlangsung penuh semangat, mencerminkan antusiasme masyarakat dalam menyambut peringatan Hari Kemerdekaan.</p>
+                <p>Selain memperindah lingkungan, pemasangan umbul-umbul menjadi simbol semangat nasionalisme dan penghormatan terhadap jasa para pahlawan yang telah memperjuangkan kemerdekaan Indonesia. Kegiatan ini juga menjadi sarana untuk mempererat hubungan antarwarga melalui budaya gotong royong yang masih terpelihara dengan baik di Dusun Krajan.</p>
+                <p>Partisipasi Tim KKN-PPM UGM dalam kegiatan ini merupakan bentuk dukungan terhadap kegiatan kemasyarakatan sekaligus upaya memperkuat hubungan antara mahasiswa dan masyarakat. Melalui keterlibatan secara langsung dalam kerja bakti, mahasiswa dapat berbaur dengan warga serta menumbuhkan rasa kebersamaan dan kepedulian terhadap lingkungan.</p>
+                <p>Dengan terlaksananya kegiatan ini, diharapkan suasana peringatan Hari Kemerdekaan Republik Indonesia ke-81 di Dusun Krajan menjadi lebih semarak serta mampu meningkatkan rasa persatuan, kebersamaan, dan semangat nasionalisme di kalangan masyarakat. Selain itu, kolaborasi yang terjalin antara mahasiswa KKN dan warga diharapkan dapat menjadi pengalaman yang berkesan dan memberikan manfaat bagi seluruh pihak.</p>
+            `,
+            source: '<span style="font-size: 0.85rem; color: #6b7280;">Sumber: KKN-PPM UGM Periode II Tahun 2026 Unit Tilik Tulakan</span>'
+        },
         bencana: {
             tag: 'Peta Tematik',
             title: 'Peta Rawan Bencana Desa Wonoanti',
