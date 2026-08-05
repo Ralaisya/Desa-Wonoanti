@@ -827,19 +827,19 @@ document.addEventListener('DOMContentLoaded', () => {
         sepang: {
             tag: 'Wisata',
             title: 'Pesona Alam Puncak Gunung Sepang',
-            image: 'assets/images/wisata_sepang.jpg',
+            image: 'assets/images/wisata_sepang.png',
             desc: `
                 <p>Keindahan alam Pacitan, Jawa Timur seolah tidak ada habisnya. Kabupaten yang berjuluk "Seribu Satu Goa" ini juga memiliki tempat yang sangat cocok bagi para pendaki dan pecinta alam bebas, yaitu <strong>Puncak Gunung Sepang</strong> yang berlokasi di Kecamatan Tulakan. Tempat ini menjadi salah satu destinasi favorit untuk mendaki sekaligus berkemah bagi anak-anak muda dan wisatawan domestik.</p>
                 <p>Dari ketinggian puncak Gunung Sepang, panorama alam Pacitan dapat terlihat dengan sangat jelas, mulai dari hamparan perbukitan yang hijau hingga pemandangan indah pantai selatan Kota Pacitan yang memukau di kejauhan. Udara di puncak Gunung Sepang ini juga terkenal sangat sejuk dan segar karena dikelilingi oleh vegetasi hutan yang asri dan terjaga kelestariannya. Hal ini menjadikannya pilihan sempurna bagi para wisatawan yang ingin melepaskan penat dari hiruk-pikuk perkotaan di akhir pekan.</p>
                 
                 <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0;">
                     <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
-                        <img src="assets/images/wisata_sepang2.jpg" alt="Keindahan Panorama Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Pemandangan panorama alam Pacitan yang mempesona dari puncak Gunung Sepang.</p>
+                        <img src="assets/images/wisata_sepang2.jpg" alt="Mahasiswa KKN UGM bersantai di tebing batu Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN UGM berfoto di atas tebing batu puncak Gunung Sepang.</p>
                     </div>
                     <div style="flex: 1; min-width: 280px; max-width: 400px; text-align: center;">
-                        <img src="assets/images/wisata_sepang3.jpg" alt="Suasana Berkemah di Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Udaranya yang sejuk dan areanya yang luas membuat Puncak Gunung Sepang ideal untuk berkemah.</p>
+                        <img src="assets/images/wisata_sepang3.jpg" alt="Keindahan matahari terbit berselimut kabut di Gunung Sepang" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Fenomena sunrise dengan pemandangan lembah perbukitan berselimut kabut tebal.</p>
                     </div>
                 </div>
 
