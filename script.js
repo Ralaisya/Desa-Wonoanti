@@ -833,12 +833,12 @@ document.addEventListener('DOMContentLoaded', () => {
         proker_umbul_umbul: {
             tag: 'Kegiatan Warga',
             title: 'Pemasangan Umbul-Umbul Dusun Krajan',
-            image: 'assets/images/proker_umbul_umbul1.png',
+            image: 'assets/images/proker_umbul_umbul1.jpg',
             desc: `
                 <p>Dalam rangka menyemarakkan peringatan Hari Kemerdekaan Republik Indonesia ke-81, masyarakat Dusun Krajan melaksanakan kegiatan kerja bakti pemasangan umbul-umbul pada tanggal 31 Juli 2026. Kegiatan ini diikuti oleh warga setempat dengan partisipasi Tim KKN-PPM Universitas Gadjah Mada Periode II Tahun 2026 Unit Tilik Tulakan sebagai bentuk dukungan terhadap rangkaian peringatan Hari Kemerdekaan di lingkungan dusun.</p>
                 
                 <div style="text-align: center; margin: 1.5rem 0;">
-                    <img src="assets/images/proker_umbul_umbul2.png" alt="Proses Mengikat Bendera Umbul-umbul pada Bambu" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); display: inline-block;">
+                    <img src="assets/images/proker_umbul_umbul2.jpg" alt="Proses Mengikat Bendera Umbul-umbul pada Bambu" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); display: inline-block;">
                     <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">Mahasiswa KKN UGM bersama warga bahu-membahu merakit dan mengikat bendera umbul-umbul.</p>
                 </div>
 
