@@ -938,42 +938,7 @@ img {
     border-top: 4px solid var(--secondary-color);
 }
 
-/* Row display for cards with avatars (Kades, Sekdes) */
-.org-card-with-avatar {
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    text-align: left;
-    width: 245px;
-    padding: 12px 18px;
-}
 
-/* Circular photo avatar for Kades and Sekdes */
-.org-avatar-circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #e2e8f0;
-    overflow: hidden;
-    flex-shrink: 0;
-    box-shadow: var(--shadow-sm);
-    background-color: #f1f5f9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.org-avatar-circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.org-avatar-circle i {
-    width: 22px;
-    height: 22px;
-    color: #94a3b8;
-}
 
 /* KAUR & KASI cards */
 .org-kaur-kasi-card {
