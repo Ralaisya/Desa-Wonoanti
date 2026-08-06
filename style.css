@@ -981,7 +981,7 @@ img {
 }
 
 /* Node typography - restored to match the original exactly */
-.org-node-role {
+.org-node-role, .org-role {
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.8px;
@@ -990,7 +990,7 @@ img {
     margin-bottom: 4px;
 }
 
-.org-node-name {
+.org-node-name, .org-name {
     font-family: var(--font-headings);
     font-size: 13px;
     font-weight: 600;
