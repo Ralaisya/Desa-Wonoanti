@@ -911,9 +911,9 @@ img {
     background-color: var(--background-white);
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-md);
-    padding: 16px 24px;
+    padding: 10px 12px;
     text-align: center;
-    width: 240px;
+    width: 155px; /* Dikecilin agar pas di layar desktop tanpa scroll */
     border: 1px solid rgba(0, 0, 0, 0.03);
     transition: all var(--transition-duration) ease;
     display: flex;
@@ -921,6 +921,10 @@ img {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.org-top-layout .org-node-card:not(.org-primary-card) {
+    width: 170px; /* BPD & LPM sedikit lebih lebar */
 }
 
 .org-node-card:hover {
@@ -938,9 +942,10 @@ img {
 .org-card-with-avatar {
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     text-align: left;
-    width: 280px;
+    width: 245px;
+    padding: 12px 18px;
 }
 
 /* Circular photo avatar for Kades and Sekdes */
@@ -977,9 +982,9 @@ img {
 
 /* Node typography - restored to match the original exactly */
 .org-node-role {
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     color: var(--text-light);
     font-weight: 600;
     margin-bottom: 4px;
@@ -987,22 +992,18 @@ img {
 
 .org-node-name {
     font-family: var(--font-headings);
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     color: var(--primary-color);
 }
 
-/* Interactive Dimming hover effect */
-.org-structure-container:hover .org-node-card:not(:hover),
-.org-structure-container:hover .org-card-dusun:not(:hover) {
-    opacity: 0.15;
+.org-card-with-avatar .org-node-role {
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
-.org-structure-container:hover .org-tree li::before,
-.org-structure-container:hover .org-tree li::after,
-.org-structure-container:hover .org-tree ul::before,
-.org-structure-container:hover .org-top-row-container::before {
-    opacity: 0.15;
+.org-card-with-avatar .org-node-name {
+    font-size: 15px;
 }
 
 /* Tooltip implementation */
