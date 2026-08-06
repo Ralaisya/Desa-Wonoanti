@@ -464,7 +464,7 @@ document.addEventListener('DOMContentLoaded', () => {
         proker_umkm: {
             tag: 'Kegiatan Proker',
             title: 'Eksplorasi Profil UMKM & Potensi Usaha Rumahan',
-            image: 'assets/images/proker_umkm.png',
+            image: 'assets/images/proker_umkm.jpg',
             desc: `
                 <p>Program kerja ini merupakan kegiatan yang bertujuan untuk mengeksplorasi, mengidentifikasi, serta mempublikasikan potensi ekonomi lokal Desa Wonoanti dan sekitarnya melalui media digital seperti website yang dapat diakses oleh masyarakat luas. Kegiatan ini dilatarbelakangi oleh banyaknya pelaku UMKM dan usaha rumahan di Desa Wonoanti yang memiliki produk unggulan berbasis sumber daya lokal, seperti gula kelapa, kopi lokal, tempe, rengginang, keripik, jamu tradisional, kue tradisional, hingga produk kerajinan. Meskipun memiliki potensi yang besar, sebagian besar pelaku usaha masih mengandalkan pemasaran secara konvensional melalui pengepul, pasar tradisional, maupun jaringan pelanggan tetap sehingga jangkauan promosi produk masih relatif terbatas.</p>
                 <p>Melalui program ini, mahasiswa KKN-PPM UGM Unit Tilik Tulakan melakukan pendataan secara langsung terhadap UMKM dan kepala dusun tiap dusun untuk mencari usaha rumahan yang tersedia di Desa Wonoanti. Proses pendataan dilakukan melalui observasi lapangan dan wawancara untuk memperoleh informasi mengenai jenis produk, potensi yang dimiliki, hingga tantangan yang dihadapi dalam mengembangkan usahanya. Informasi tersebut kemudian disusun menjadi profil UMKM yang sistematis dan informatif sehingga dapat memberikan gambaran yang komprehensif mengenai potensi ekonomi desa.</p>
