@@ -828,6 +828,7 @@ img {
         border-top: 2px solid #cbd5e1;
         width: 50%;
         height: 25px;
+        transition: opacity 0.3s ease;
     }
     .org-tree li::after {
         right: auto;
@@ -864,6 +865,7 @@ img {
         width: 0;
         height: 25px;
         transform: translateX(-50%);
+        transition: opacity 0.3s ease;
     }
 }
 
@@ -889,6 +891,7 @@ img {
         background-color: #cbd5e1;
         z-index: 1;
         transform: translateY(-50%);
+        transition: opacity 0.3s ease;
     }
 }
 
@@ -903,16 +906,16 @@ img {
     gap: 20px;
 }
 
-/* Card base styling */
+/* Card base styling - restored to match the original .org-card exactly */
 .org-node-card {
     background-color: var(--background-white);
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-md);
-    padding: 14px 20px;
+    padding: 16px 24px;
     text-align: center;
-    width: 220px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
+    width: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    transition: all var(--transition-duration) ease;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -921,83 +924,23 @@ img {
 }
 
 .org-node-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
     border-color: var(--accent-light);
 }
 
-/* Custom styling for different roles based on the image reference */
-.org-kades-card {
-    background: linear-gradient(135deg, #e11d48, #be123c); /* Elegant Deep Red */
-    color: var(--text-white);
-    border-top: none;
-    padding: 14px 22px;
-    width: 260px;
-    min-height: 80px;
-    display: flex;
+/* Primary card: top border with secondary-color */
+.org-primary-card {
+    border-top: 4px solid var(--secondary-color);
+}
+
+/* Row display for cards with avatars (Kades, Sekdes) */
+.org-card-with-avatar {
     flex-direction: row;
     align-items: center;
     gap: 15px;
     text-align: left;
-}
-
-.org-kades-card .org-node-name {
-    color: var(--text-white);
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.org-kades-card .org-node-role {
-    color: rgba(255, 255, 255, 0.85);
-    font-weight: 500;
-}
-
-/* BPD & LPM Cards: Yellow background, dark text */
-.org-side-card {
-    background: linear-gradient(135deg, #fbbf24, #f59e0b); /* Warm Yellow */
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    width: 200px;
-    min-height: 80px;
-    padding: 10px 15px;
-}
-
-.org-side-card .org-node-role {
-    font-size: 18px;
-    font-weight: 800;
-    color: #1e293b;
-    margin-bottom: 2px;
-}
-
-.org-side-card .org-node-name {
-    font-size: 10px;
-    color: #475569;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-/* Sekretaris Desa: Blue background, white text */
-.org-sekdes-card {
-    background: linear-gradient(135deg, #2563eb, #1d4ed8); /* Vibrant Blue */
-    color: var(--text-white);
-    border-top: none;
-    width: 245px;
-    min-height: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-    text-align: left;
-    padding: 12px 20px;
-}
-
-.org-sekdes-card .org-node-name {
-    color: var(--text-white);
-    font-size: 15px;
-}
-
-.org-sekdes-card .org-node-role {
-    color: rgba(255, 255, 255, 0.85);
-    font-weight: 500;
+    width: 280px;
 }
 
 /* Circular photo avatar for Kades and Sekdes */
@@ -1005,7 +948,7 @@ img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid var(--background-white);
+    border: 2px solid #e2e8f0;
     overflow: hidden;
     flex-shrink: 0;
     box-shadow: var(--shadow-sm);
@@ -1021,7 +964,6 @@ img {
     object-fit: cover;
 }
 
-/* Default avatar icon in circle if no photo */
 .org-avatar-circle i {
     width: 22px;
     height: 22px;
@@ -1033,11 +975,11 @@ img {
     border-top: 4px solid var(--primary-color);
 }
 
-/* Node typography */
+/* Node typography - restored to match the original exactly */
 .org-node-role {
-    font-size: 10px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     color: var(--text-light);
     font-weight: 600;
     margin-bottom: 4px;
@@ -1045,9 +987,52 @@ img {
 
 .org-node-name {
     font-family: var(--font-headings);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     color: var(--primary-color);
+}
+
+/* Interactive Dimming hover effect */
+.org-structure-container:hover .org-node-card:not(:hover),
+.org-structure-container:hover .org-card-dusun:not(:hover) {
+    opacity: 0.15;
+}
+
+.org-structure-container:hover .org-tree li::before,
+.org-structure-container:hover .org-tree li::after,
+.org-structure-container:hover .org-tree ul::before,
+.org-structure-container:hover .org-top-row-container::before {
+    opacity: 0.15;
+}
+
+/* Tooltip implementation */
+.org-node-card[data-tooltip]::after,
+.org-card-dusun[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    white-space: pre;
+    z-index: 100;
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.org-node-card:hover[data-tooltip]::after,
+.org-card-dusun:hover[data-tooltip]::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
 }
 
 /* Mobile & Tablet view styling (< 992px) */
@@ -1076,7 +1061,6 @@ img {
         position: relative;
     }
     
-    /* Simple vertical line connecting stacked items */
     .org-tree li::before {
         content: '';
         position: absolute;
@@ -1091,7 +1075,6 @@ img {
         display: none;
     }
     
-    /* Hide desktop lines */
     .org-tree li::after, .org-tree ul ul::before {
         display: none;
     }
